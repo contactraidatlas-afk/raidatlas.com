@@ -1,0 +1,443 @@
+[
+    {
+        "id": "quad-1j",
+        "slug": "raid-quad-1-jour",
+        "title": "Raid Quad 1 Jour",
+        "shortDescription": "Découverte de l’Atlas et du désert d’Agafay en une journée.",
+        "price": "190 € / personne",
+        "duration": "1 jour",
+        "rating": "4.9",
+        "reviewCount": "87",
+        "srcImage": "/Quad/1day/1.jpg",
+        "gallery": [
+            "/Quad/1day/1.jpg",
+            "/Quad/1day/2.jpg",
+            "/Quad/1day/3.jpg"
+        ],
+        "maxGroupSize": "8 personnes",
+        "program": [
+            "Transfert depuis votre hébergement vers la base dans le désert d’Agafay.",
+            "Briefing sécurité, remise de l’équipement et prise en main du quad.",
+            "Traversée des pistes désertiques d’Agafay et de ses vallées rocheuses .",
+            "Montée vers le Plateau du Kik avec vue panoramique sur l’Atlas et Lalla Takerkoust .",
+            "Déjeuner dans un lodge typique au bord du lac.",
+            "Retour par des pistes roulantes et villages berbères.",
+            "Fin de journée et transfert retour."
+        ],
+        "highlights": [
+            "Parcours intense et varié en une journée.",
+            "Plateau du Kik et désert d’Agafay.",
+            "Vues sur le Haut Atlas."
+        ],
+        "included": [
+            "Quad & carburant",
+            "Casque, lunettes, gants",
+            "Guide professionnel",
+            "Transfert aller/retour",
+            "Déjeuner"
+        ],
+        "notIncluded": [
+            "Dépenses personnelles",
+            "Boissons hors repas"
+        ],
+        "practicalInfo": [
+            "Niveau : 1",
+            "Accessible aux débutants",
+            "Non recommandé pour femmes enceintes"
+        ],
+        "description": "Une immersion complète entre désert d’Agafay et contreforts de l’Atlas."
+    },
+    {
+        "id": "quad-2j",
+        "slug": "raid-quad-2-jours-1-nuit",
+        "title": "Raid Quad 2 Jours 1 Nuit",
+        "shortDescription": "Deux jours d’aventure entre Agafay, Kik et Vallée de N’fis.",
+        "price": "350 € / personne",
+        "duration": "2 jours / 1 nuit",
+        "rating": "4.9",
+        "reviewCount": "112",
+        "srcImage": "/Quad/2days/2.jpg",
+        "gallery": [
+            "/Quad/2days/1.jpg",
+            "/Quad/2days/2.jpg",
+            "/Quad/2days/3.jpg"
+        ],
+        "maxGroupSize": "8 personnes",
+        "program": [
+            "Jour 1 : Agafay → Plateau du Kik → Vallée de N’fis. Désert rocheux, montée vers Kik, villages suspendus . Déjeuner à Lalla Takerkoust. Nuit en maison d’hôtes dans la vallée.",
+            "Jour 2 : Vallée de N’fis → Amizmiz → retour base. Traversée de villages berbères, pistes forestières et vallées profondes jusqu’au retour à Agafay ."
+        ],
+        "highlights": [
+            "Vallée de N'fis",
+            "Plateau du Kik",
+            "Villages berbères"
+        ],
+        "included": [
+            "Quad & carburant",
+            "Guide professionnel",
+            "1 nuit en maison d’hôtes",
+            "Transferts",
+            "Pension complète"
+        ],
+        "notIncluded": [
+            "Boissons",
+            "Assurance personnelle"
+        ],
+        "practicalInfo": [
+            "Niveau : 1 à 2",
+            "Départ : 2 quads minimum"
+        ],
+        "description": "Parcours compact et immersif entre montagnes et désert."
+    },
+    {
+        "id": "quad-3j",
+        "slug": "raid-quad-3-jours-2-nuits",
+        "title": "Raid Quad 3 Jours 2 Nuits",
+        "shortDescription": "Raid complet Haut Atlas – Désert Agafay",
+        "price": "520 € / personne",
+        "duration": "3 jours / 2 nuits",
+        "rating": "4.9",
+        "reviewCount": "156",
+        "srcImage": "/Quad/3days/1.jpg",
+        "gallery": [
+            "/Quad/3days/1.jpg",
+            "/Quad/3days/2.jpg",
+            "/Quad/3days/3.jpg"
+        ],
+        "maxGroupSize": "8 personnes",
+        "program": [
+            "Jour 1 : Agafay → Lalla Takerkoust → Plateau du Kik → Vallée de N’fis. Exactement comme décrit dans le programme officiel .",
+            "Jour 2 : Vallée de N’fis → Amizmiz → Anougal → Azgour → Toulkine. Pistes montagneuses, villages perchés, montée à 2000 m .",
+            "Jour 3 : Toulkine → Adassil → Barrage Taskourte → Agafay. Vallées profondes, paysages sauvages, retour base vers 16h00 ."
+        ],
+        "highlights": [
+            "Plateau du Kik",
+            "Vallée de N’fis",
+            "Adassil & Azgour",
+            "Barrage Taskourte"
+        ],
+        "included": [
+            "Quad & carburant",
+            "Guides professionnels",
+            "2 nuits en auberges",
+            "Déjeuners et dîners",
+            "Transferts"
+        ],
+        "notIncluded": [
+            "Dépenses personnelles",
+            "Boissons"
+        ],
+        "practicalInfo": [
+            "Niveau 1 à 2",
+            "Départ : 2 quads minimum"
+        ],
+        "description": "Le raid star du Haut Atlas, paysages variés et immersion totale."
+    },
+    {
+        "id": "quad-4j",
+        "slug": "raid-quad-4-jours-3-nuits",
+        "title": "Raid Quad 4 Jours 3 Nuits",
+        "shortDescription": "Immersion prolongée entre Atlas, vallées et désert d’Agafay.",
+        "price": "690 € / personne",
+        "duration": "4 jours / 3 nuits",
+        "rating": "4.9",
+        "reviewCount": "131",
+        "srcImage": "/Quad/4days/1.jpg",
+        "gallery": [
+            "/Quad/4days/1.jpg",
+            "/Quad/4days/2.jpg",
+            "/Quad/4days/3.jpg"
+        ],
+        "maxGroupSize": "8 personnes",
+        "program": [
+            "Jour 1 : Reprise du programme du jour 1 officiel (Agafay – Kik – N’fis) .",
+            "Jour 2 : Reprise du jour 2 officiel (N’fis – Amizmiz – Azgour – Toulkine) .",
+            "Jour 3 : Itinéraire prolongé : Toulkine → Tamanzalout → grandes forêts → plateau panoramique.",
+            "Jour 4 : Tamanzalout → Amizmiz → désert d’Agafay → base."
+        ],
+        "highlights": [
+            "4 jours de paysages variés",
+            "Forêts de pins et plateaux montagneux",
+            "Hauts plateaux du Haut Atlas"
+        ],
+        "included": [
+            "Quad",
+            "Carburant",
+            "Guides",
+            "3 nuits",
+            "Pension complète"
+        ],
+        "notIncluded": [
+            "Boissons",
+            "Assurances"
+        ],
+        "practicalInfo": [
+            "Niveau : 1 à 3"
+        ],
+        "description": "Raid long et immersif, idéal pour passionnés."
+    },
+    {
+        "id": "quad-5j",
+        "slug": "raid-quad-5-jours-4-nuits",
+        "title": "Raid Quad 5 Jours 4 Nuits",
+        "shortDescription": "Le grand raid Atlas – 5 jours d’aventure totale.",
+        "price": "850 € / personne",
+        "duration": "5 jours / 4 nuits",
+        "rating": "4.9",
+        "reviewCount": "102",
+        "srcImage": "/Quad/5days/1.jpg",
+        "gallery": [
+            "/Quad/5days/1.jpg",
+            "/Quad/5days/2.jpg",
+            "/Quad/5days/3.jpg"
+        ],
+        "maxGroupSize": "8 personnes",
+        "program": [
+            "Jours 1, 2 et 3 : Programme complet du raid 3 jours officiel .",
+            "Jour 4 : Exploration prolongée vers zones reculées d’Azgour et Anougal.",
+            "Jour 5 : Retour via pistes désertiques d’Agafay."
+        ],
+        "highlights": [
+            "Long parcours montagne + désert",
+            "Vallées profondes",
+            "Villages reculés"
+        ],
+        "included": [
+            "Quad",
+            "Guides",
+            "4 nuits",
+            "Pension complète"
+        ],
+        "notIncluded": [
+            "Extras",
+            "Assurance"
+        ],
+        "practicalInfo": [
+            "Niveau : 1 à 3"
+        ],
+        "description": "5 jours d’aventure haut de gamme entre Atlas et désert."
+    },
+    {
+        "id": "buggy-1j",
+        "slug": "raid-buggy-1-jour",
+        "title": "Raid Buggy 1 Jour",
+        "shortDescription": "Journée buggy entre le désert d’Agafay et le Plateau du Kik.",
+        "price": "220 € / personne",
+        "duration": "1 jour",
+        "rating": "4.9",
+        "reviewCount": "94",
+        "srcImage": "/Buggy/1day/1.jpg",
+        "gallery": [
+            "/Buggy/1day/1.jpg",
+            "/Buggy/1day/2.jpg",
+            "/Buggy/1day/3.jpg"
+        ],
+        "maxGroupSize": "8 personnes",
+        "program": [
+            "Transfert depuis votre hôtel vers notre base du désert d’Agafay.",
+            "Briefing sécurité complet et remise de l’équipement.",
+            "Prise en main des buggys et départ sur les pistes désertiques d’Agafay.",
+            "Montée vers le Plateau du Kik, vues panoramiques sur l’Atlas et le lac de Lalla Takerkoust.",
+            "Déjeuner dans un lodge typique au bord du lac.",
+            "Retour par villages berbères et vallées désertiques.",
+            "Fin de journée et transfert retour."
+        ],
+        "highlights": [
+            "Maniabilité parfaite du buggy",
+            "Désert d’Agafay",
+            "Plateau du Kik et panoramas"
+        ],
+        "included": [
+            "Buggy",
+            "Guide",
+            "Équipement",
+            "Déjeuner",
+            "Transferts"
+        ],
+        "notIncluded": [
+            "Boissons",
+            "Dépenses personnelles"
+        ],
+        "practicalInfo": [
+            "Niveau 1",
+            "Accessible débutants",
+            "Pas pour femmes enceintes"
+        ],
+        "description": "Une journée intense en buggy entre désert, lac et montagnes."
+    },
+    {
+        "id": "buggy-2j",
+        "slug": "raid-buggy-2-jours-1-nuit",
+        "title": "Raid Buggy 2 Jours 1 Nuit",
+        "shortDescription": "2 jours de buggy entre Agafay, Kik et Vallée de N’fis.",
+        "price": "380 € / personne",
+        "duration": "2 jours / 1 nuit",
+        "rating": "4.9",
+        "reviewCount": "108",
+        "srcImage": "/Buggy/2days/1.jpg",
+        "gallery": [
+            "/Buggy/2days/1.jpg",
+            "/Buggy/2days/2.jpg",
+            "/Buggy/2days/3.jpg"
+        ],
+        "maxGroupSize": "8 personnes",
+        "program": [
+            "Jour 1 : Agafay → Plateau du Kik → Lalla Takerkoust → Vallée de N’fis. Pistes roulantes, paysages arides, villages suspendus et déjeuner au bord du lac. Nuit en maison d’hôtes.",
+            "Jour 2 : Vallée de N’fis → Amizmiz → désert d’Agafay. Forêts d’eucalyptus, villages berbères, oueds et pistes mixtes avant retour à la base."
+        ],
+        "highlights": [
+            "Kik en buggy",
+            "Nuit en vallée",
+            "Villages berbères"
+        ],
+        "included": [
+            "Buggy et carburant",
+            "Équipement complet",
+            "Guide professionnel",
+            "1 nuit en maison d’hôtes",
+            "Repas du midi et du soir",
+            "Transferts"
+        ],
+        "notIncluded": [
+            "Boissons supplémentaires",
+            "Assurances"
+        ],
+        "practicalInfo": [
+            "Niveau buggy : 1",
+            "Minimum 2 buggys"
+        ],
+        "description": "Aventure équilibrée entre désert et montagnes en buggy."
+    },
+    {
+        "id": "buggy-3j",
+        "slug": "raid-buggy-3-jours-2-nuits",
+        "title": "Raid Buggy 3 Jours 2 Nuits",
+        "shortDescription": "Le grand classique Haut Atlas en buggy.",
+        "price": "590 € / personne",
+        "duration": "3 jours / 2 nuits",
+        "rating": "5.0",
+        "reviewCount": "167",
+        "srcImage": "/Buggy/3days/1.jpg",
+        "gallery": [
+            "/Buggy/3days/1.jpg",
+            "/Buggy/3days/2.jpg",
+            "/Buggy/3days/3.jpg"
+        ],
+        "maxGroupSize": "8 personnes",
+        "program": [
+            "Jour 1 : Agafay → Lalla Takerkoust → Plateau du Kik → Vallée de N’fis. Désert aride, vallées lunaires, villages suspendus, déjeuner au lodge et nuit à Auberge Imsker.",
+            "Jour 2 : Vallée de N’fis → Amizmiz → Anougal → Azgour → Toulkine. Pistes montagneuses, villages perchés, montée à 2000 m, paysages saisissants.",
+            "Jour 3 : Toulkine → Adassil → Barrage Taskourte → retour Agafay. Zones sauvages, vallées profondes et final dans le désert."
+        ],
+        "highlights": [
+            "Plateau du Kik",
+            "Ascension 2000m",
+            "Adassil sauvage",
+            "Barrage Taskourte"
+        ],
+        "included": [
+            "Buggy et carburant",
+            "Guide professionnel",
+            "2 nuits en auberges",
+            "Pension complète",
+            "Transferts"
+        ],
+        "notIncluded": [
+            "Boissons",
+            "Dépenses perso"
+        ],
+        "practicalInfo": [
+            "Niveau buggy : 1",
+            "Accessible passagers débutants"
+        ],
+        "description": "Une expérience spectaculaire en buggy dans les Hauts Atlas."
+    },
+    {
+        "id": "buggy-4j",
+        "slug": "raid-buggy-4-jours-3-nuits",
+        "title": "Raid Buggy 4 Jours 3 Nuits",
+        "shortDescription": "4 jours de buggy entre Atlas profond et désert d’Agafay.",
+        "price": "760 € / personne",
+        "duration": "4 jours / 3 nuits",
+        "rating": "4.9",
+        "reviewCount": "119",
+        "srcImage": "/Buggy/4days/1.jpg",
+        "gallery": [
+            "/Buggy/4days/1.jpg",
+            "/Buggy/4days/2.jpg",
+            "/Buggy/4days/3.jpg"
+        ],
+        "maxGroupSize": "8 personnes",
+        "program": [
+            "Jour 1 et Jour 2 : Parcours complet du raid 3 jours (J1 & J2).",
+            "Jour 3 : Toulkine → Tamanzalout → forêts de pins → plateaux panoramiques. Journée d’exploration prolongée.",
+            "Jour 4 : Tamanzalout → Amizmiz → désert d’Agafay → base. Grandes pistes roulantes et final dans le désert."
+        ],
+        "highlights": [
+            "Atlas profond",
+            "Étapes prolongées",
+            "Forêts et plateaux panoramiques"
+        ],
+        "included": [
+            "Buggy",
+            "3 nuits en auberge",
+            "Guides",
+            "Pension complète",
+            "Transferts"
+        ],
+        "notIncluded": [
+            "Boissons",
+            "Assurance"
+        ],
+        "practicalInfo": [
+            "Niveau buggy : 1",
+            "Minimum 2 buggys"
+        ],
+        "description": "Un raid intense pour les amoureux du buggy, montagnes et désert réunis."
+    },
+    {
+        "id": "buggy-5j",
+        "slug": "raid-buggy-5-jours-4-nuits",
+        "title": "Raid Buggy 5 Jours 4 Nuits",
+        "shortDescription": "Le raid buggy ultime : 5 jours d’exploration dans le Haut Atlas.",
+        "price": "920 € / personne",
+        "duration": "5 jours / 4 nuits",
+        "rating": "5.0",
+        "reviewCount": "134",
+        "srcImage": "/Buggy/5days/1.jpg",
+        "gallery": [
+            "/Buggy/5days/1.jpg",
+            "/Buggy/5days/2.jpg",
+            "/Buggy/5days/3.jpg"
+        ],
+        "maxGroupSize": "8 personnes",
+        "program": [
+            "Jours 1, 2 et 3 : Programme complet du raid 3 jours officiel.",
+            "Jour 4 : Exploration élargie de zones reculées (Azgour, Anougal, crêtes).",
+            "Jour 5 : Grande traversée finale jusqu’à Agafay par pistes désertiques."
+        ],
+        "highlights": [
+            "5 jours de paysages extrêmes",
+            "Vallées, forêts, sommets et désert",
+            "Buggy très agréable sur longues distances"
+        ],
+        "included": [
+            "Buggy",
+            "Guides",
+            "4 nuits",
+            "Pension complète",
+            "Transferts"
+        ],
+        "notIncluded": [
+            "Boissons",
+            "Assurance",
+            "Dépenses perso"
+        ],
+        "practicalInfo": [
+            "Niveau buggy : 1",
+            "Accessible passagers",
+            "Minimum 2 buggys"
+        ],
+        "description": "Une aventure grand format en buggy dans les Hauts Atlas et le désert."
+    }
+]

@@ -1,0 +1,72 @@
+{
+  "name": "Raid Atlas - Aventures Désertiques & Quad au Maroc",
+  "short_name": "Raid Atlas",
+  "description": "Vivez l'aventure désertique ultime avec Raid Atlas. Réservez des tours en quad, expériences désertiques et aventures marocaines authentiques.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#1a1a1a",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo.svg",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo.svg",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["travel", "lifestyle"],
+  "screenshots": [
+    {
+      "src": "/Slides/1.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/Slides/2.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Réserver une Aventure",
+      "short_name": "Réserver",
+      "description": "Réservez rapidement votre aventure quad",
+      "url": "/activities",
+      "icons": [
+        {
+          "src": "/logo.svg",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Nous Contacter",
+      "short_name": "Contact",
+      "description": "Contactez notre équipe d'aventure",
+      "url": "/contact",
+      "icons": [
+        {
+          "src": "/logo.svg",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
