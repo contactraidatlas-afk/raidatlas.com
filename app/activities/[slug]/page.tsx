@@ -30,6 +30,9 @@ type Activity = {
   srcImage: string
   highlights: string[]
   included: string[]
+  notIncluded: string[]
+  practicalInfo: string[]
+  program: string[]
   gallery: string[]
 }
 
@@ -58,6 +61,9 @@ const activitiesData: Activity[] = (allActivities as any[]).map((a: any, idx: nu
   srcImage: (a as any).srcImage ?? fallbackActivityImages[idx % fallbackActivityImages.length],
   highlights: a.highlights ?? [],
   included: a.included ?? [],
+  notIncluded: a.notIncluded ?? [],
+  practicalInfo: a.practicalInfo ?? [],
+  program: a.program ?? [],
   gallery: Array.isArray((a as any).gallery) && (a as any).gallery.length > 0
     ? (a as any).gallery
     : [
@@ -244,6 +250,52 @@ export default function ActivityPage({ params }: { params: { slug: string } }) {
               </div>
             </motion.section>
 
+            {/* Full Program */}
+            {activity.program.length > 0 && (
+              <motion.section initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.2 }} transition={{ duration: 0.6 }}>
+                <h3 className="text-2xl font-semibold mb-6">Programme Complet</h3>
+                <div className="space-y-4">
+                  {activity.program.map((step: string, index: number) => (
+                    <div key={index} className="relative pl-10 py-4 border border-border/50 rounded-xl bg-card/40">
+                      <div className="absolute left-4 top-5 w-2 h-2 rounded-full bg-primary" aria-hidden />
+                      <p className="text-sm uppercase tracking-wide text-muted-foreground mb-1">Étape {index + 1}</p>
+                      <p className="text-base text-foreground leading-relaxed">{step}</p>
+                    </div>
+                  ))}
+                </div>
+              </motion.section>
+            )}
+
+            {/* Not Included */}
+            {activity.notIncluded.length > 0 && (
+              <motion.section initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.2 }} transition={{ duration: 0.5 }}>
+                <h3 className="text-2xl font-semibold mb-4">Ce qui n'est pas Inclus</h3>
+                <div className="grid md:grid-cols-2 gap-4">
+                  {activity.notIncluded.map((item: string, index: number) => (
+                    <div key={index} className="flex items-start">
+                      <X className="h-5 w-5 text-destructive mr-3 mt-0.5 flex-shrink-0" />
+                      <span>{item}</span>
+                    </div>
+                  ))}
+                </div>
+              </motion.section>
+            )}
+
+            {/* Practical Info */}
+            {activity.practicalInfo.length > 0 && (
+              <motion.section initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.2 }} transition={{ duration: 0.5 }}>
+                <h3 className="text-2xl font-semibold mb-4">Infos Pratiques</h3>
+                <div className="space-y-3">
+                  {activity.practicalInfo.map((info: string, index: number) => (
+                    <div key={index} className="flex items-start">
+                      <Check className="h-5 w-5 text-secondary mr-3 mt-0.5 flex-shrink-0" />
+                      <span>{info}</span>
+                    </div>
+                  ))}
+                </div>
+              </motion.section>
+            )}
+
             {/* Gallery */}
             <motion.section initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.2 }} transition={{ duration: 0.5 }}>
               <h3 className="text-2xl font-semibold mb-6">Galerie</h3>
@@ -341,7 +393,7 @@ export default function ActivityPage({ params }: { params: { slug: string } }) {
                 <CardContent className="p-6">
                   <div className="text-center mb-6">
                     <span className="text-3xl font-bold text-primary">{activity.price}</span>
-                    <span className="text-muted-foreground ml-2">par personne</span>
+                    {/* <span className="text-muted-foreground ml-2">par personne</span> */}
                   </div>
 
                   <div className="space-y-4 mb-6">

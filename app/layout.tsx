@@ -27,8 +27,8 @@ export async function generateMetadata(): Promise<Metadata> {
   const proto = hdrs.get("x-forwarded-proto") || "http"
   const host = hdrs.get("x-forwarded-host") || hdrs.get("host") || "localhost:3000"
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || `${proto}://${host}`
-  const absoluteLogo = `${baseUrl}/logo.svg`
-  const absoluteHero = `${baseUrl}/Slides/DSC_5011.jpg`
+  const absoluteLogo = `${baseUrl}/logoagafay.png`
+  const absoluteOG = `${baseUrl}/Slides/1.png`
   return {
     title: "Raid Atlas - Aventures Désertiques & Quad au Maroc | Réservez Maintenant",
     description:
@@ -63,11 +63,11 @@ export async function generateMetadata(): Promise<Metadata> {
       siteName: "Raid Atlas",
       images: [
         {
-          url: absoluteHero,
+          url: absoluteOG,
           width: 1200,
           height: 630,
-          alt: "Raid Atlas — Aventures Désertiques",
-          type: "image/jpeg",
+          alt: "Raid Atlas — Aventures Désertiques & Quad au Maroc",
+          type: "image/png",
         },
         {
           url: absoluteLogo,
@@ -85,7 +85,7 @@ export async function generateMetadata(): Promise<Metadata> {
       title: "Raid Atlas - Aventures Désertiques & Quad au Maroc",
       description:
         "Vivez l'aventure désertique ultime avec Raid Atlas. Réservez des tours en quad, expériences désertiques et aventures marocaines authentiques.",
-      images: [absoluteHero],
+      images: [absoluteOG],
       creator: "@raidatlas",
     },
     icons: {
