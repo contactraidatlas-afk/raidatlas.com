@@ -6,7 +6,8 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Calendar, Users, ArrowRight, ArrowLeft, Mail } from "lucide-react"
+import { Calendar, Users, ArrowRight, ArrowLeft, Mail, ChevronDown } from "lucide-react"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { useRouter } from "next/navigation"
 import Link from "next/link"
 
@@ -32,10 +33,26 @@ export function ActivityBookingForm({ activity }: ActivityBookingFormProps) {
     firstName: "",
     lastName: "",
     email: "",
+    countryCode: "+212",
     phone: "",
     city: "",
     specialRequests: "",
   })
+
+  const countries = [
+    { code: "+212", name: "Maroc", flag: "🇲🇦" },
+    { code: "+33", name: "France", flag: "🇫🇷" },
+    { code: "+1", name: "USA/Canada", flag: "🇺🇸" },
+    { code: "+44", name: "UK", flag: "🇬🇧" },
+    { code: "+49", name: "Allemagne", flag: "🇩🇪" },
+    { code: "+34", name: "Espagne", flag: "🇪🇸" },
+    { code: "+39", name: "Italie", flag: "🇮🇹" },
+    { code: "+32", name: "Belgique", flag: "🇧🇪" },
+    { code: "+41", name: "Suisse", flag: "🇨🇭" },
+    { code: "+31", name: "Pays-Bas", flag: "🇳🇱" },
+    { code: "+971", name: "UAE", flag: "🇦🇪" },
+    { code: "+966", name: "Arabie Saoudite", flag: "🇸🇦" },
+  ]
 
   const handleInputChange = (field: string, value: string) => {
     setFormData((prev) => ({ ...prev, [field]: value }))
@@ -53,18 +70,16 @@ export function ActivityBookingForm({ activity }: ActivityBookingFormProps) {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          name: `${formData.firstName} ${formData.lastName}`,
-          email: formData.email,
-          phone: formData.phone,
-          activity: {
-            id: activity.id,
-            slug: activity.slug,
-            title: activity.title,
-            duration: activity.duration,
-            price: activity.price,
-          },
+          activityTitle: activity.title,
+          activityDuration: activity.duration,
+          activityPrice: activity.price,
+          activitySlug: activity.slug,
           date: formData.date,
-          numberOfPeople: formData.people,
+          people: formData.people,
+          firstName: formData.firstName,
+          lastName: formData.lastName,
+          email: formData.email,
+          phone: `${formData.countryCode} ${formData.phone}`,
           message: formData.specialRequests,
           city: formData.city,
         }),
@@ -105,7 +120,8 @@ export function ActivityBookingForm({ activity }: ActivityBookingFormProps) {
   const handleWhatsAppBooking = () => {
     const origin = typeof window !== "undefined" ? window.location.origin : ""
     const activityUrl = `${origin}/activities/${activity.slug}`
-    const message = `Bonjour ! Je voudrais réserver : ${activity.title} (${activity.duration}).\nDate : ${formData.date}\nPersonnes : ${formData.people}\nLien : ${activityUrl}\nNom : ${formData.firstName} ${formData.lastName}\nEmail : ${formData.email}\nTéléphone : ${formData.phone}\nVille : ${formData.city}${formData.specialRequests ? `\nDemandes spéciales : ${formData.specialRequests}` : ""}`
+    const fullPhone = `${formData.countryCode} ${formData.phone}`
+    const message = `Bonjour ! Je voudrais réserver : ${activity.title} (${activity.duration}).\nDate : ${formData.date}\nPersonnes : ${formData.people}\nLien : ${activityUrl}\nNom : ${formData.firstName} ${formData.lastName}\nEmail : ${formData.email}\nTéléphone : ${fullPhone}\nVille : ${formData.city}${formData.specialRequests ? `\nDemandes spéciales : ${formData.specialRequests}` : ""}`
     const whatsappUrl = `https://wa.me/+212601921044?text=${encodeURIComponent(message)}`
     window.open(whatsappUrl, "_blank")
   }
@@ -231,13 +247,41 @@ export function ActivityBookingForm({ activity }: ActivityBookingFormProps) {
             </div>
             <div>
               <Label htmlFor="phone">Téléphone</Label>
-              <Input
-                id="phone"
-                type="tel"
-                value={formData.phone}
-                onChange={(e) => handleInputChange("phone", e.target.value)}
-                required
-              />
+              <div className="flex gap-2">
+                <Select
+                  value={formData.countryCode}
+                  onValueChange={(value) => handleInputChange("countryCode", value)}
+                >
+                  <SelectTrigger className="w-[140px]">
+                    <SelectValue>
+                      <div className="flex items-center gap-2">
+                        <span className="text-xl">{countries.find(c => c.code === formData.countryCode)?.flag}</span>
+                        <span>{formData.countryCode}</span>
+                      </div>
+                    </SelectValue>
+                  </SelectTrigger>
+                  <SelectContent>
+                    {countries.map((country) => (
+                      <SelectItem key={country.code} value={country.code}>
+                        <div className="flex items-center gap-2">
+                          <span className="text-xl">{country.flag}</span>
+                          <span>{country.code}</span>
+                          <span className="text-muted-foreground text-sm">({country.name})</span>
+                        </div>
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
+                <Input
+                  id="phone"
+                  type="tel"
+                  placeholder="612345678"
+                  value={formData.phone}
+                  onChange={(e) => handleInputChange("phone", e.target.value)}
+                  className="flex-1"
+                  required
+                />
+              </div>
             </div>
             <div>
               <Label htmlFor="city">Ville</Label>
