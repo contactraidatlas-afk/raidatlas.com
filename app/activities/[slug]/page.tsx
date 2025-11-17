@@ -6,13 +6,20 @@ import { ActivityReviews } from "@/components/activity-reviews"
 import { ActivityFAQ } from "@/components/activity-faq"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Star, MapPin, Check, X, ChevronLeft, ChevronRight } from "lucide-react"
+import { Star, MapPin, Check, X, ChevronLeft, ChevronRight, Clock } from "lucide-react"
 import { notFound } from "next/navigation"
 import { motion } from "framer-motion"
 import Image from "next/image"
 import { useEffect, useState } from "react"
 import { Dialog, DialogContent } from "@/components/ui/dialog"
 import allActivities from "@/data/activities.json"
+
+type ProgramDay = {
+  day: string
+  title: string
+  distance: string
+  details: string[]
+}
 
 type Activity = {
   id: string
@@ -22,8 +29,13 @@ type Activity = {
   longDescription: string
   price: string
   duration: string
-  rating: string
-  reviewCount: string
+  nights?: string
+  type?: string
+  difficulty?: string
+  startLocation?: string
+  endLocation?: string
+  rating?: string
+  reviewCount?: string
   maxGroupSize: string
   location: string
   heroImage: string
@@ -32,7 +44,7 @@ type Activity = {
   included: string[]
   notIncluded: string[]
   practicalInfo: string[]
-  program: string[]
+  program: ProgramDay[]
   gallery: string[]
 }
 
@@ -53,8 +65,13 @@ const activitiesData: Activity[] = (allActivities as any[]).map((a: any, idx: nu
   longDescription: a.description ?? a.shortDescription,
   price: a.price,
   duration: a.duration,
-  rating: a.rating,
-  reviewCount: a.reviewCount,
+  rating: a.rating ?? "4.9",
+  reviewCount: a.reviewCount ?? "100+",
+  nights: a.nights,
+  type: a.type,
+  difficulty: a.difficulty,
+  startLocation: a.startLocation,
+  endLocation: a.endLocation,
   maxGroupSize: a.maxGroupSize ?? "8 people",
   location: a.location ?? "Raid Atlas, Morocco",
   heroImage: a.title,
@@ -136,17 +153,26 @@ export default function ActivityPage({ params }: { params: { slug: string } }) {
               transition={{ delay: 0.5, duration: 0.8 }}
               className="flex flex-wrap items-center gap-4 mb-6"
             >
+              {activity.type && (
+                <Badge className="bg-accent/90 backdrop-blur-sm text-accent-foreground px-4 py-2 text-sm font-medium shadow-lg">
+                  {activity.type}
+                </Badge>
+              )}
               <Badge className="bg-primary/90 backdrop-blur-sm text-primary-foreground px-4 py-2 text-sm font-medium shadow-lg">
                 {activity.duration}
               </Badge>
-              <Badge className="bg-secondary/90 backdrop-blur-sm text-secondary-foreground px-4 py-2 text-sm font-medium shadow-lg">
-                {activity.maxGroupSize}
-              </Badge>
-              <div className="flex items-center bg-black/50 backdrop-blur-sm rounded-full px-4 py-2">
-                <Star className="h-4 w-4 text-yellow-400 fill-current mr-2" />
-                <span className="font-semibold text-sm">{activity.rating}</span>
-                <span className="ml-1 text-sm opacity-80">({activity.reviewCount})</span>
-              </div>
+              {activity.difficulty && (
+                <Badge className="bg-secondary/90 backdrop-blur-sm text-secondary-foreground px-4 py-2 text-sm font-medium shadow-lg">
+                  {activity.difficulty}
+                </Badge>
+              )}
+              {activity.rating && (
+                <div className="flex items-center bg-black/50 backdrop-blur-sm rounded-full px-4 py-2">
+                  <Star className="h-4 w-4 text-yellow-400 fill-current mr-2" />
+                  <span className="font-semibold text-sm">{activity.rating}</span>
+                  <span className="ml-1 text-sm opacity-80">({activity.reviewCount})</span>
+                </div>
+              )}
             </motion.div>
             
             <motion.h1 
@@ -254,12 +280,29 @@ export default function ActivityPage({ params }: { params: { slug: string } }) {
             {activity.program.length > 0 && (
               <motion.section initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.2 }} transition={{ duration: 0.6 }}>
                 <h3 className="text-2xl font-semibold mb-6">Programme Complet</h3>
-                <div className="space-y-4">
-                  {activity.program.map((step: string, index: number) => (
-                    <div key={index} className="relative pl-10 py-4 border border-border/50 rounded-xl bg-card/40">
-                      <div className="absolute left-4 top-5 w-2 h-2 rounded-full bg-primary" aria-hidden />
-                      <p className="text-sm uppercase tracking-wide text-muted-foreground mb-1">Étape {index + 1}</p>
-                      <p className="text-base text-foreground leading-relaxed">{step}</p>
+                <div className="space-y-6">
+                  {activity.program.map((day: ProgramDay, index: number) => (
+                    <div key={index} className="border border-border/50 rounded-xl bg-card/40 overflow-hidden">
+                      <div className="bg-gradient-to-r from-primary/10 to-secondary/10 px-6 py-4 border-b border-border/30">
+                        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+                          <div>
+                            <p className="text-sm font-semibold text-primary uppercase tracking-wide">{day.day}</p>
+                            <h4 className="text-lg font-bold text-foreground mt-1">{day.title}</h4>
+                          </div>
+                          <div className="flex items-center space-x-2 text-sm text-muted-foreground">
+                            <MapPin className="h-4 w-4" />
+                            <span className="font-medium">{day.distance}</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="px-6 py-4 space-y-3">
+                        {day.details.map((detail: string, detailIndex: number) => (
+                          <div key={detailIndex} className="flex items-start space-x-3">
+                            <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0" />
+                            <p className="text-sm text-foreground leading-relaxed">{detail}</p>
+                          </div>
+                        ))}
+                      </div>
                     </div>
                   ))}
                 </div>
@@ -295,6 +338,68 @@ export default function ActivityPage({ params }: { params: { slug: string } }) {
                 </div>
               </motion.section>
             )}
+
+            {/* Map Section */}
+            <motion.section
+              className="bg-gradient-to-br from-card/50 to-muted/20 rounded-2xl p-8 border border-border/50"
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.2 }}
+              transition={{ duration: 0.8 }}
+            >
+              <motion.div 
+                className="text-center mb-8"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.2, duration: 0.8 }}
+              >
+                <h3 className="text-2xl font-bold mb-3 text-foreground">Trouvez-Nous à Marrakech</h3>
+                <p className="text-muted-foreground">
+                  Votre aventure commence au cœur de la ville la plus dynamique du Maroc
+                </p>
+              </motion.div>
+              
+              <div className="relative rounded-xl overflow-hidden shadow-xl mb-6">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3397.0!2d-7.9696898!3d31.6803207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzHCsDQwJzQ5LjIiTiA3wrA1OCcxMC45Ilc!5e0!3m2!1sen!2sma!4v1700000000000!5m2!1sen!2sma"
+                  width="100%"
+                  height="400"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Raid Atlas - Siège de l'Aventure à Marrakech"
+                  className="w-full"
+                />
+                <div className="absolute top-4 left-4 bg-white/95 backdrop-blur-sm rounded-lg p-3 shadow-lg">
+                  <div className="flex items-center space-x-2">
+                    <div className="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center">
+                      <MapPin className="h-4 w-4 text-primary" />
+                    </div>
+                    <div>
+                      <p className="font-semibold text-sm text-foreground">Siège Raid Atlas</p>
+                      <p className="text-xs text-muted-foreground">Marrakech, Maroc</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="grid sm:grid-cols-3 gap-4 text-sm text-muted-foreground">
+                <div className="flex items-center space-x-2 justify-center sm:justify-start">
+                  <MapPin className="h-4 w-4 text-primary flex-shrink-0" />
+                  <span>45 min vers l'Atlas</span>
+                </div>
+                <div className="flex items-center space-x-2 justify-center sm:justify-start">
+                  <MapPin className="h-4 w-4 text-primary flex-shrink-0" />
+                  <span>3h vers le Sahara</span>
+                </div>
+                <div className="flex items-center space-x-2 justify-center sm:justify-start">
+                  <MapPin className="h-4 w-4 text-primary flex-shrink-0" />
+                  <span>15 min de l'aéroport</span>
+                </div>
+              </div>
+            </motion.section>
 
             {/* Gallery */}
             <motion.section initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.2 }} transition={{ duration: 0.5 }}>
@@ -401,17 +506,27 @@ export default function ActivityPage({ params }: { params: { slug: string } }) {
                       <span className="text-muted-foreground">Durée :</span>
                       <span className="font-medium">{activity.duration}</span>
                     </div>
-                    {/* <div className="flex justify-between">
-                      <span className="text-muted-foreground">Group size:</span>
-                      <span className="font-medium">Max {activity.maxGroupSize}</span>
-                    </div> */}
-                    <div className="flex justify-between">
-                      <span className="text-muted-foreground">Note :</span>
-                      <div className="flex items-center">
-                        <Star className="h-4 w-4 text-yellow-400 fill-current mr-1" />
-                        <span className="font-medium">{activity.rating}</span>
+                    {activity.type && (
+                      <div className="flex justify-between">
+                        <span className="text-muted-foreground">Type :</span>
+                        <span className="font-medium">{activity.type}</span>
                       </div>
-                    </div>
+                    )}
+                    {activity.difficulty && (
+                      <div className="flex justify-between">
+                        <span className="text-muted-foreground">Difficulté :</span>
+                        <span className="font-medium">{activity.difficulty}</span>
+                      </div>
+                    )}
+                    {activity.rating && (
+                      <div className="flex justify-between">
+                        <span className="text-muted-foreground">Note :</span>
+                        <div className="flex items-center">
+                          <Star className="h-4 w-4 text-yellow-400 fill-current mr-1" />
+                          <span className="font-medium">{activity.rating}</span>
+                        </div>
+                      </div>
+                    )}
                   </div>
 
                   <ActivityBookingForm activity={{

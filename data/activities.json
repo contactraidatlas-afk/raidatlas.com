@@ -1,122 +1,210 @@
 [
   {
-    "id": "quad-1j",
-    "slug": "raid-quad-1-jour",
-    "title": "Raid Quad 1 Jour",
-    "shortDescription": "Journée complète : Agafay, Lalla Takerkoust et Plateau du Kik — briefing, pistes et déjeuner au bord du lac.",
+    "id": "quad-1-jour",
+    "slug": "quad-1-jour-marrakech-agafay",
+    "title": "Raid Quad 1 Jour – Désert d’Agafay & Villages Berbères",
+    "duration": "1 jour (sans nuitée)",
+    "nights": "0",
+    "type": "Quad",
+    "difficulty": "Niveau 1 (accessible débutants)",
+    "startLocation": "Marrakech",
+    "endLocation": "Marrakech",
     "price": "Sur demande",
-    "duration": "1 jour",
-    "rating": "4.9",
-    "reviewCount": "87",
+    "shortDescription": "Une journée complète en quad depuis Marrakech : désert d’Agafay, villages berbères, lac Lalla Takerkoust et plateau du Kik.",
     "srcImage": "/Quad/1day/1.jpg",
-    "gallery": ["/Quad/1day/1.jpg","/Quad/1day/2.jpg","/Quad/1day/3.jpg"],
-    "maxGroupSize": "8 personnes",
+    "gallery": [
+      "/Quad/1day/1.jpg",
+      "/Quad/1day/2.jpg",
+      "/Quad/1day/3.jpg",
+      "/Quad/1day/4.jpg"
+    ],
     "program": [
-      "08:00 — Prise en charge à votre riad/hôtel à Marrakech. Transfert en minibus climatisé (35–45 min) vers notre base située au cœur du désert d’Agafay, avec présentation de l’équipe et du déroulé de la journée.",
-      "09:00 — Accueil à la base : remise de l’équipement complet (casque homologué, lunettes de protection, gants et combinaison légère selon saison). Briefing sécurité détaillé et démonstration de maniement du quad, vérification technique des machines.",
-      "09:45 — Prise en main et départ : premières pistes roulantes d’Agafay, traversée de rivières asséchées et plateaux lunaires. Plusieurs arrêts photos programmés pour profiter des textures minérales et de la lumière du matin.",
-      "11:30 — Progression vers le Plateau du Kik : montée progressive offrant des points de vue panoramiques sur le lac Lalla Takerkoust et, par temps clair, sur les sommets du Haut Atlas. Explications du guide sur la géologie et les usages agricoles locaux.",
-      "12:30 — Déjeuner convivial au lodge au bord du lac : menu traditionnel (tajine ou plat du jour, salades marocaines, dessert et thé à la menthe). Temps libre 45–60 min pour se reposer et échanger avec le guide.",
-      "14:00 — Reprise : pistes vallonnées et traversée de petits douars, rencontre éventuelle avec des villageois, découverte de cultures en terrasse et oliveraies. Le guide propose des anecdotes culturelles et un point photo au coucher si la fenêtre horaire le permet.",
-      "16:30 — Arrivée progressive à la base, nettoyage rapide des machines si nécessaire, remise des équipements et thé de fin de circuit. Transfert retour vers Marrakech (arrivée estimée 17:30–18:00)."
+      {
+        "day": "Jour 1",
+        "title": "Marrakech → Désert d’Agafay → Lalla Takerkoust → Plateau du Kik",
+        "distance": "140 km",
+        "details": [
+          "Départ depuis votre hôtel à Marrakech (transfert inclus).",
+          "Arrivée à notre base au désert d'Agafay : accueil, briefing sécurité & remise des équipements (casque, masque, gants).",
+          "Initiation au maniement du quad pour les débutants.",
+          "Début du raid à travers les pistes désertiques d'Agafay : collines arides, zones lunaires, grandes plaines et passages rapides.",
+          "Traversée de plusieurs douars berbères authentiques avec arrêts photos et échanges avec les habitants.",
+          "Passage par les rivières asséchées et par les pistes techniques du désert.",
+          "Arrivée au lac Lalla Takerkoust.",
+          "Déjeuner dans un lodge atypique en bord de lac (tajine traditionnel, salades marocaines, fruits & thé à la menthe).",
+          "Reprise du raid en direction du spectaculaire Plateau du Kik : panoramas 360° sur le Haut Atlas et les villages en terrasses.",
+          "Descente vers la vallée de Nfis — région authentique peu fréquentée, idéale pour les passionnés de paysages sauvages.",
+          "Fin de journée et retour à la base d'Agafay.",
+          "Remise des quads, moment détente & thé de fin de circuit.",
+          "Transfert retour à Marrakech et dépôt à votre hôtel."
+        ]
+      }
     ],
     "highlights": [
-      "Immersion express entre désert et Atlas en une journée",
-      "Plateau du Kik & lac Lalla Takerkoust",
-      "Déjeuner typique au lodge"
+      "Journée complète de 140 km en quad dans l’Atlas & Agafay.",
+      "Traversée des villages berbères authentiques.",
+      "Plateau du Kik & vues panoramiques sur les montagnes.",
+      "Déjeuner traditionnel au lac Lalla Takerkoust.",
+      "Encadrement par un guide professionnel.",
+      "Raid 100% motorisé – aucune marche prévue."
     ],
     "included": [
-      "Quad & carburant",
-      "Casque, lunettes, gants",
-      "Guide professionnel francophone",
-      "Transferts aller/retour",
-      "Déjeuner au lodge",
-      "Assistance mécanique de base"
+      "Transfert aller-retour depuis Marrakech.",
+      "Quad individuel ou double.",
+      "Essence et assistance mécanique.",
+      "Guide professionnel francophone.",
+      "Équipements complets : casque, masque, gants.",
+      "Déjeuner au bord du lac.",
+      "Bouteille d’eau et pauses photo."
     ],
     "notIncluded": [
-      "Assurance personnelle",
-      "Boissons supplémentaires",
-      "Pourboires"
+      "Boissons supplémentaires.",
+      "Assurances personnelles.",
+      "Pourboires (optionnels)."
     ],
     "practicalInfo": [
-      "Niveau : 1 (accessible aux débutants en bonne condition)",
-      "Durée approximative : 8–9 heures au total",
-      "Minimum de départ : 2 machines",
-      "Apporter lunettes de soleil, crème solaire et vêtements chauds pour la matinée et le soir"
+      "Accessible aux débutants.",
+      "Permis non obligatoire (terrain privé et pistes).",
+      "Âge minimum conducteur : 16 ans (avec autorisation).",
+      "Activité 100% en quad — aucune marche à pied.",
+      "Vêtements recommandés : chaussures fermées, lunettes, coupe-vent."
     ],
-    "description": "Une journée rythmée pour découvrir la diversité des paysages proches de Marrakech : pistes d’Agafay, lac et plateaux du Kik, rencontres locales et déjeuner typique. Idéal pour un premier contact avec le quad."
+    "description": "Ce raid quad d’une journée complète vous plonge dans les paysages spectaculaires du désert d’Agafay, du lac Lalla Takerkoust, du plateau du Kik et de la vallée de Nfis. Entre nature sauvage, villages berbères et panoramas sur le Haut Atlas, cette aventure est une immersion totale dans le Maroc authentique."
   },
-
   {
-    "id": "quad-2j",
-    "slug": "raid-quad-2-jours-1-nuit",
-    "title": "Raid Quad 2 Jours / 1 Nuit",
-    "shortDescription": "Deux jours d’aventure : Agafay, Plateau du Kik et la Vallée de N’fis — nuit typique en maison d’hôtes.",
+    "id": "quad-2-jours",
+    "slug": "raid-quad-2-jours-marrakech-atlas-agafay",
+    "title": "Raid Quad 2 Jours – Atlas & Désert d’Agafay",
+    "duration": "2 jours",
+    "nights": "1 nuit",
+    "type": "Quad",
+    "difficulty": "Niveau 1 à 2",
+    "startLocation": "Marrakech",
+    "endLocation": "Marrakech",
     "price": "Sur demande",
-    "duration": "2 jours / 1 nuit",
-    "rating": "4.9",
-    "reviewCount": "112",
-    "srcImage": "/Quad/2days/1.jpg",
-    "gallery": ["/Quad/2days/1.jpg","/Quad/2days/2.jpg","/Quad/2days/3.jpg"],
-    "maxGroupSize": "8 personnes",
+    "shortDescription": "Deux jours d’aventure en quad entre désert, villages berbères et montagnes de l’Atlas avec une nuit en auberge typique.",
+    "srcImage": "/Quad/2days/4.jpg",
+    "gallery": [
+      "/Quad/2days/1.jpg",
+      "/Quad/2days/2.jpg",
+      "/Quad/2days/3.jpg",
+      "/Quad/2days/4.jpg"
+    ],
     "program": [
-      "Jour 1 — 08:00 : Prise en charge à Marrakech. Transfert vers la base (Agafay). Accueil, remise d’équipement et briefing sécurité détaillé.",
-      "Jour 1 — 09:30 : Départ en direction du Plateau du Kik via pistes d’Agafay ; passage par points panoramiques et rivières asséchées. Le guide explique l’histoire et les usages des lieux.",
-      "Jour 1 — 12:30 : Déjeuner au bord du lac Lalla Takerkoust : tajine, salades, dessert et thé à la menthe. Moment détente et photos.",
-      "Jour 1 — 14:00 : Reprise vers le Plateau du Kik et descente progressive vers la Vallée de N’fis ; traversée de cultures en terrasses et douars. Arrivée en fin de journée à l’Auberge Imsker, installation et dîner montagnard autour du feu.",
-      "Jour 2 — 08:00 : Petit-déjeuner à l’auberge. Départ vers Amizmiz en empruntant pistes forestières et chemins muletiers offrant de belles perspectives sur le Haut Atlas.",
-      "Jour 2 — 11:30 : Passage par villages berbères et marché local ; pause photo et découverte artisanale.",
-      "Jour 2 — 13:00 : Déjeuner à Anougal chez l’habitant : tajine traditionnel et produits locaux, ambiance conviviale.",
-      "Jour 2 — 15:00 : Reprise par pistes mixtes en direction de la base (retour via sections roulantes), remise des quads et transfert vers Marrakech (arrivée estimée 17:30–18:00)."
+      {
+        "day": "Jour 1",
+        "title": "Marrakech → Désert d’Agafay → Plateau du Kik → Barrage (Nuit 1)",
+        "distance": "140 km",
+        "details": [
+          "Départ depuis votre hôtel à Marrakech (transfert inclus).",
+          "Arrivée à la base d'Agafay, briefing sécurité, remise des équipements, initiation quad.",
+          "Début du raid en direction des pistes désertiques d'Agafay : collines, plateaux arides, rivières asséchées.",
+          "Traversée de plusieurs villages berbères authentiques, arrêts photos, découverte de la vie locale.",
+          "Passage du plateau du Kik avec panoramas exceptionnels sur le Haut Atlas enneigé.",
+          "Arrivée au lac Lalla Takerkoust et déjeuner dans un lodge local (cuisine marocaine).",
+          "Reprise du raid vers les crêtes de l'Atlas et les pistes forestières.",
+          "Arrivée au Barrage / Lalla Takerkoust.",
+          "Installation dans une auberge typique avec vue sur les montagnes.",
+          "Dîner traditionnel & Nuit dans l'Atlas."
+        ]
+      },
+      {
+        "day": "Jour 2",
+        "title": "Barrage → Villages Berbères → Agafay → Marrakech",
+        "distance": "120 km",
+        "details": [
+          "Petit déjeuner à l'auberge avec vue panoramique.",
+          "Départ en quad en direction des villages berbères : maisons en pisé, oliveraies, rivières asséchées.",
+          "Passage par les pistes de montagne entre forêt d'eucalyptus et champs en terrasses.",
+          "Pause chez l'habitant pour un déjeuner marocain authentique.",
+          "Reprise du raid vers le désert d'Agafay : pistes rapides, grands plateaux, paysages lunaires.",
+          "Retour à la base, thé de fin de circuit.",
+          "Transfert retour vers votre hôtel à Marrakech."
+        ]
+      }
     ],
     "highlights": [
-      "Nuit authentique en maison d’hôtes dans la vallée",
-      "Découverte des villages berbères et marchés locaux",
-      "Parcours varié : forêts, pistes, plateaux"
+      "Deux jours de raid à travers désert, villages et montagnes.",
+      "Nuit dans une auberge typique au cœur de l’Atlas.",
+      "Déjeuner au bord du lac Lalla Takerkoust.",
+      "Panoramas uniques sur le Haut Atlas et le plateau du Kik.",
+      "Encadrement professionnel et équipement complet."
     ],
     "included": [
-      "Quad & carburant",
-      "Guide professionnel",
-      "1 nuit en maison d’hôtes (demi-pension)",
-      "Transferts",
-      "Équipement complet",
-      "Déjeuners et dîners durant le raid"
+      "Transfert aller-retour Marrakech.",
+      "Quad individuel ou double.",
+      "Équipements complets.",
+      "Guide professionnel francophone.",
+      "1 nuit en auberge (Atlas).",
+      "Déjeuners et dîner du Jour 1.",
+      "Assistance & essence."
     ],
     "notIncluded": [
-      "Nuit(s) avant/après le raid",
-      "Assurance personnelle",
-      "Boissons en dehors des repas inclus"
+      "Boissons supplémentaires.",
+      "Dîner du retour à Marrakech.",
+      "Dépenses personnelles."
     ],
     "practicalInfo": [
-      "Niveau : 1–2 (sections techniques possibles)",
-      "Prévoir vêtements chauds pour la soirée en altitude",
-      "Minimum 2 quads pour départ"
+      "Accessible aux débutants.",
+      "Raid 100% en quad — aucune marche à pied.",
+      "Bagage léger conseillé pour la nuit.",
+      "Âge minimum : 16 ans pour conduite."
     ],
-    "description": "Deux jours pour s’immerger dans les contreforts de l’Atlas : du désert aux vallées verdoyantes avec une nuit typique en maison d’hôtes. Programme fidèle au parcours documenté."
+    "description": "Ce raid quad de 2 jours vous plonge au cœur des paysages du désert d’Agafay, du plateau du Kik et des villages berbères de l’Atlas. Une aventure riche en rencontres, panoramas et sensations."
   },
-
   {
-    "id": "quad-3j",
+    "id": "quad-3-jours",
     "slug": "raid-quad-3-jours-2-nuits",
     "title": "Raid Quad 3 Jours / 2 Nuits",
-    "shortDescription": "Le grand classique : Haut Atlas → Adassil → Barrage Taskourte → Désert d’Agafay — immersion complète.",
+    "duration": "3 jours",
+    "nights": "2 nuits",
+    "type": "Quad",
+    "difficulty": "Niveau 1–2",
+    "startLocation": "Marrakech",
+    "endLocation": "Marrakech",
     "price": "Sur demande",
-    "duration": "3 jours / 2 nuits",
-    "rating": "4.9",
-    "reviewCount": "156",
+    "shortDescription": "Le grand classique : Haut Atlas → Adassil → Barrage Taskourte → Désert d’Agafay — immersion complète.",
     "srcImage": "/Quad/3days/1.jpg",
-    "gallery": ["/Quad/3days/1.jpg","/Quad/3days/2.jpg","/Quad/3days/3.jpg"],
-    "maxGroupSize": "8 personnes",
+    "gallery": [
+      "/Quad/3days/1.jpg",
+      "/Quad/3days/2.jpg",
+      "/Quad/3days/3.jpg"
+    ],
     "program": [
-      "Jour 1 — 08:00 : Prise en charge à Marrakech et transfert vers la base d’Agafay. Briefing sécurité approfondi et vérification des machines.",
-      "Jour 1 — 10:00 : Départ par les pistes désertiques d’Agafay puis direction Lalla Takerkoust. Traversée de rivières asséchées, pauses photos et découverte des paysages lunaires et collinaires. Arrivée au lac vers midi pour déjeuner.",
-      "Jour 1 — 14:00 : Reprise du raid en direction du Plateau du Kik : pistes roulantes, vues sur l’Atlas, villages suspendus et cultures en terrasses. Descente vers la Vallée de N’fis en fin de journée. Installation à l’Auberge Imsker, détente et dîner typique. :contentReference[oaicite:2]{index=2}",
-      "Jour 2 — 08:00 : Petit-déjeuner et départ sur pistes montagneuses offrant de superbes vues. Passage par Amizmiz, traversée de villages berbères et marchés locaux, pauses culturelles.",
-      "Jour 2 — 12:30 : Déjeuner à Anougal en pleine nature : repas traditionnel (tajine, salades, fruits saisonniers).",
-      "Jour 2 — 14:30 : Reprise vers Azgour, traversée par Anerni et Tnirte. Ascension progressive jusqu’à 2000 m, zones techniques, forêts de genévriers et panoramas exceptionnels. Arrivée en soirée à Toulkine, installation en auberge (La Bergerie / La Perle d’Adassil selon disponibilité) et dîner montagnard.",
-      "Jour 3 — 08:00 : Petit-déjeuner puis départ vers Adassil via pistes caillouteuses, vallées profondes et cols spectaculaires.",
-      "Jour 3 — 12:30 : Déjeuner chez l’habitant après la descente des montagnes, moment d’échange et découverte culinaire berbère.",
-      "Jour 3 — 14:00 : Reprise vers le barrage de Taskourte, pauses photos, traversée d’hameaux isolés puis retour vers le désert d’Agafay. Arrivée à la base vers 16:00, remise des équipements, thé d’adieu et transfert vers Marrakech."
+      {
+        "day": "Jour 1",
+        "title": "Agafay → Lalla Takerkoust → Plateau du Kik → Vallée de N’fis",
+        "distance": "140 km",
+        "details": [
+          "08:00 — Prise en charge à Marrakech et transfert vers la base d’Agafay. Briefing sécurité approfondi et vérification des machines.",
+          "10:00 — Départ par les pistes désertiques d’Agafay puis direction Lalla Takerkoust. Traversée de rivières asséchées, pauses photos et découverte des paysages lunaires et collinaires. Arrivée au lac vers midi pour déjeuner.",
+          "14:00 — Reprise du raid en direction du Plateau du Kik : pistes roulantes, vues sur l’Atlas, villages suspendus et cultures en terrasses.",
+          "18:00 — Descente vers Vallée de N’fis en fin de journée. Installation à l’Auberge Imsker, détente et dîner typique."
+        ]
+      },
+      {
+        "day": "Jour 2",
+        "title": "Vallée de N’fis → Amizmiz → Anougal → Azgour → Toulkine",
+        "distance": "140 km",
+        "details": [
+          "08:00 — Petit-déjeuner et départ sur piste montagneuse offrant de superbes vues sur le Haut Atlas.",
+          "10:30 — Passage par Amizmiz : traversée de villages berbères, marchés locaux et pauses photo.",
+          "13:00 — Pause déjeuner à Anougal en pleine nature (tajine, salades, fruits de saison).",
+          "14:30 — Reprise du raid en direction de la région d’Azgour, passage par Anerni et Tnirte, ascension progressive jusqu’à 2000 m.",
+          "18:30 — Arrivée et installation à la Bergerie / La Perle d’Adassil (Toulkine). Dîner montagnard et soirée conviviale."
+        ]
+      },
+      {
+        "day": "Jour 3",
+        "title": "Toulkine → Adassil → Barrage Taskourte → Agafay",
+        "distance": "160 km",
+        "details": [
+          "08:00 — Petit-déjeuner et départ vers la région reculée d’Adassil via pistes caillouteuses et cols spectaculaires.",
+          "12:30 — Déjeuner chez l’habitant après la descente des montagnes, moment d’échange et découverte culinaire berbère.",
+          "14:30 — Reprise du raid sur pistes roulantes en direction du barrage de Taskourte, superbes panoramas et hameaux isolés.",
+          "16:00 — Arrivée prévue à Agafay, clôture du raid, remise des équipements et thé de fin de circuit. Transfert vers Marrakech."
+        ]
+      }
     ],
     "highlights": [
       "Ascension jusqu’à 2000 m et vues panoramiques",
@@ -141,26 +229,59 @@
       "Prévoir chaussures fermées, vêtements chauds et imperméable léger",
       "Minimum 2 quads"
     ],
-    "description": "Programme complet et authentique du Haut Atlas, parfaitement aligné sur le document source (itinéraires, étapes et lieux)."
+    "description": "Programme complet et authentique du Haut Atlas, parfaitement aligné sur le document source."
   },
-
   {
-    "id": "quad-4j",
+    "id": "quad-4-jours",
     "slug": "raid-quad-4-jours-3-nuits",
     "title": "Raid Quad 4 Jours / 3 Nuits",
-    "shortDescription": "Prolongation du 3 jours avec exploration des hauts plateaux et une nuit à Ounagha (zone côtière/essaouira).",
+    "duration": "4 jours",
+    "nights": "3 nuits",
+    "type": "Quad",
+    "difficulty": "Niveau 1–3",
+    "startLocation": "Marrakech",
+    "endLocation": "Marrakech",
     "price": "Sur demande",
-    "duration": "4 jours / 3 nuits",
-    "rating": "4.9",
-    "reviewCount": "131",
+    "shortDescription": "Prolongation du 3 jours avec exploration des hauts plateaux et une nuit à Ounagha (zone côtière proche d’Essaouira).",
     "srcImage": "/Quad/4days/1.jpg",
-    "gallery": ["/Quad/4days/1.jpg","/Quad/4days/2.jpg","/Quad/4days/3.jpg"],
-    "maxGroupSize": "8 personnes",
+    "gallery": [
+      "/Quad/4days/1.jpg",
+      "/Quad/4days/2.jpg",
+      "/Quad/4days/3.jpg"
+    ],
     "program": [
-      "Jour 1 — identique au Jour 1 du programme 3 jours : Agafay → Lalla Takerkoust → Plateau du Kik → Vallée de N’fis. Nuit à l’Auberge Imsker.",
-      "Jour 2 — identique au Jour 2 du 3 jours : N’fis → Amizmiz → Anougal → Azgour → Toulkine. Nuit à La Bergerie / Perle d’Adassil.",
-      "Jour 3 — Toulkine → Tamanzalou : montée vers les hauts plateaux, traversée de forêts de pins, déjeuner au Village Bateau puis après-midi d’exploration des crêtes et belvédères. Nuit en auberge locale.",
-      "Jour 4 — Tamanzalou → Barrage → Direction Ounagha : matinée de belles pistes, déjeuner chez l’habitant, puis transit vers la région d’Ounagha (zone côtière proche d’Essaouira) pour une nuit en lodge. Soirée libre pour profiter de l’air marin et d’un dîner de fruits de mer selon disponibilité locale."
+      {
+        "day": "Jour 1",
+        "title": "Identique au Jour 1 du 3 jours (Agafay → Lalla Takerkoust → Plateau du Kik → Vallée de N’fis)",
+        "distance": "140 km",
+        "details": [
+          "Transfert depuis Marrakech, briefing, départ Agafay, déjeuner au lac et arrivée à Vallée de N’fis pour nuit à l’Auberge Imsker."
+        ]
+      },
+      {
+        "day": "Jour 2",
+        "title": "Identique au Jour 2 du 3 jours (N’fis → Amizmiz → Anougal → Azgour → Toulkine)",
+        "distance": "140 km",
+        "details": [
+          "Pistes montagneuses, ascension jusqu’à 2000 m, arrivée et nuit à Toulkine (La Bergerie / La Perle d’Adassil)."
+        ]
+      },
+      {
+        "day": "Jour 3",
+        "title": "Toulkine → Tamanzalou (forêts de pins & plateaux)",
+        "distance": "120 km",
+        "details": [
+          "Montée vers les hauts plateaux, traversée de forêts de pins, déjeuner au Village Bateau, exploration des crêtes et belvédères, nuit en auberge locale."
+        ]
+      },
+      {
+        "day": "Jour 4",
+        "title": "Tamanzalou → Barrage → Ounagha (zone proche Essaouira) → Retour",
+        "distance": "150 km",
+        "details": [
+          "Matinée de pistes, déjeuner chez l’habitant, transit vers la région d’Ounagha pour une nuit en lodge côtier. Soirée libre."
+        ]
+      }
     ],
     "highlights": [
       "Deux nuits dans l’Atlas + une nuit à Ounagha (côte)",
@@ -186,76 +307,47 @@
     ],
     "description": "Raid prolongé mélangeant haute montagne et côte Atlantique : le confort d’hébergements montagnards et la surprise d’une nuit près de la mer (Ounagha/zone Essaouira)."
   },
-
   {
-    "id": "quad-5j",
-    "slug": "raid-quad-5-jours-4-nuits",
-    "title": "Raid Quad 5 Jours / 4 Nuits",
-    "shortDescription": "Grand raid : Atlas complet + Ounagha + nuit plage — exploration approfondie des zones reculées.",
-    "price": "Sur demande",
-    "duration": "5 jours / 4 nuits",
-    "rating": "4.9",
-    "reviewCount": "102",
-    "srcImage": "/Quad/5days/1.jpg",
-    "gallery": ["/Quad/5days/1.jpg","/Quad/5days/2.jpg","/Quad/5days/3.jpg"],
-    "maxGroupSize": "8 personnes",
-    "program": [
-      "Jour 1–3 — Conservent l’itinéraire complet du Raid 3 jours (Agafay → N’fis → Azgour → Toulkine → Adassil → Taskourte), avec deux nuits en auberges typiques et pauses culinaires chez l’habitant.",
-      "Jour 4 — Extension : exploration approfondie des zones reculées d’Azgour/Anougal et des crêtes peu fréquentées ; nuit en auberge à Ounagha (transit vers la côte en fin de journée).",
-      "Jour 5 — Matin : découverte côtière autour d’Ounagha, matinées sur pistes littorales si l’itinéraire le permet ; déjeuner en bord de mer. Après-midi : traversée finale par pistes désertiques et retour progressif vers Agafay. Fin du raid et transfert Marrakech en fin d’après-midi."
-    ],
-    "highlights": [
-      "5 jours d’exploration complète : montagnes, vallées, zones isolées et littoral",
-      "Nuit en lodge côtier + immersion rurale",
-      "Repas variés : tajines montagnards, produits locaux et possibilité fruits de mer"
-    ],
-    "included": [
-      "Quad et carburant",
-      "Guides expérimentés et assistance",
-      "4 nuits (2 Atlas + 1 Ounagha + 1 plage selon plan)",
-      "Pension complète pendant le raid",
-      "Transferts"
-    ],
-    "notIncluded": [
-      "Assurances personnelles",
-      "Vols et nuits hors programme",
-      "Dépenses personnelles"
-    ],
-    "practicalInfo": [
-      "Niveau : 1–3 (tronçons longs et techniques possibles)",
-      "Préparation mécanique recommandée",
-      "Groupes limités pour préserver l’expérience"
-    ],
-    "description": "Le grand tour qui combine l’intégralité du Haut Atlas et un trait littoral pour finir sur une note marine — idéal pour voyageurs avides d’immersion et de diversité de paysages."
-  },
-
-  {
-    "id": "buggy-1j",
+    "id": "buggy-1-jour",
     "slug": "raid-buggy-1-jour",
     "title": "Raid Buggy 1 Jour",
-    "shortDescription": "Journée buggy : confort et exploration entre Agafay et Plateau du Kik — déjeuner au lac.",
+    "duration": "1 jour (sans nuitée)",
+    "nights": "0",
+    "type": "Buggy",
+    "difficulty": "Niveau 1 (accessible familles)",
+    "startLocation": "Marrakech",
+    "endLocation": "Marrakech",
     "price": "Sur demande",
-    "duration": "1 jour",
-    "rating": "4.9",
-    "reviewCount": "94",
+    "shortDescription": "Journée buggy : confort et exploration entre Agafay et Plateau du Kik — déjeuner au lac.",
     "srcImage": "/Buggy/1day/1.jpg",
-    "gallery": ["/Buggy/1day/1.jpg","/Buggy/1day/2.jpg","/Buggy/1day/3.jpg"],
-    "maxGroupSize": "8 personnes",
+    "gallery": [
+      "/Buggy/1day/1.jpg",
+      "/Buggy/1day/2.jpg",
+      "/Buggy/1day/3.jpg"
+    ],
     "program": [
-      "08:00 — Prise en charge à Marrakech et transfert à la base d’Agafay. Accueil, vérification des buggys et ajustement des sièges et des consignes passagers.",
-      "09:00 — Briefing sécurité, démonstration et prise en main du buggy. Vérification des ceintures et des règles de conduite en duo si passager présent.",
-      "09:45 — Départ vers les premières pistes d’Agafay ; arrêts réguliers pour photos et explications paysagères par le guide.",
-      "12:30 — Déjeuner au lodge de Lalla Takerkoust (tajine, salade, dessert, thé). Temps libre pour profiter du site.",
-      "14:00 — Traversée du Plateau du Kik : sections larges et roulantes, franchissements faciles, découverte des villages et oliveraies en bord de piste.",
-      "16:30 — Retour à la base, nettoyage léger, remise des équipements et thé de clôture. Transfert retour vers Marrakech (arrivée estimée 17:30–18:00)."
+      {
+        "day": "Jour 1",
+        "title": "Marrakech → Agafay → Lalla Takerkoust → Plateau du Kik",
+        "distance": "140 km",
+        "details": [
+          "08:00 — Prise en charge à Marrakech et transfert à la base d’Agafay. Accueil, vérification des buggys et ajustement des sièges.",
+          "09:00 — Briefing sécurité, démonstration et prise en main du buggy.",
+          "09:45 — Départ vers les pistes d’Agafay ; arrêts réguliers pour photos et explications paysagères.",
+          "12:30 — Déjeuner au lodge de Lalla Takerkoust (tajine, salade, dessert, thé).",
+          "14:00 — Traversée du Plateau du Kik : sections larges et roulantes, découverte des villages et oliveraies.",
+          "16:30 — Retour à la base, nettoyage léger, remise des équipements et thé de clôture. Transfert retour vers Marrakech."
+        ]
+      }
     ],
     "highlights": [
       "Confort et stabilité du buggy",
       "Déjeuner au lac",
-      "Parcours photogénique"
+      "Parcours photogénique",
+      "Aucune marche — tout en véhicule"
     ],
     "included": [
-      "Buggy (2 personnes possible selon modèle) et carburant",
+      "Buggy et carburant",
       "Équipement passager/pilote",
       "Guide professionnel",
       "Déjeuner",
@@ -272,25 +364,45 @@
     ],
     "description": "Journée idéale pour couples et familles souhaitant confort et sensations modérées, avec déjeuner typique et beaux panoramas."
   },
-
   {
-    "id": "buggy-2j",
+    "id": "buggy-2-jours",
     "slug": "raid-buggy-2-jours-1-nuit",
     "title": "Raid Buggy 2 Jours / 1 Nuit",
-    "shortDescription": "Deux jours en buggy : Agafay → Plateau du Kik → Vallée de N’fis — nuit en maison d’hôtes.",
+    "duration": "2 jours",
+    "nights": "1 nuit",
+    "type": "Buggy",
+    "difficulty": "Niveau 1",
+    "startLocation": "Marrakech",
+    "endLocation": "Marrakech",
     "price": "Sur demande",
-    "duration": "2 jours / 1 nuit",
-    "rating": "4.9",
-    "reviewCount": "108",
+    "shortDescription": "Deux jours en buggy : Agafay → Plateau du Kik → Vallée de N’fis — nuit en maison d’hôtes.",
     "srcImage": "/Buggy/2days/1.jpg",
-    "gallery": ["/Buggy/2days/1.jpg"],
-    "maxGroupSize": "8 personnes",
+    "gallery": [
+      "/Buggy/2days/1.jpg",
+   "/Buggy/1day/2.jpg",
+      "/Buggy/1day/3.jpg"
+    ],
     "program": [
-      "Jour 1 — 08:00 : Prise en charge et transfert vers base Agafay. Briefing et prise en main des buggys.",
-      "Jour 1 — 10:00 : Traversée du désert d’Agafay, lacs asséchés et points panoramiques jusqu’au lac Lalla Takerkoust pour un déjeuner au lodge.",
-      "Jour 1 — 14:00 : Direction Plateau du Kik puis descente vers la Vallée de N’fis ; arrivée à l’Auberge Imsker, installation, dîner et soirée conviviale.",
-      "Jour 2 — 08:00 : Petit-déjeuner et départ en direction d’Amizmiz, traversée de villages berbères, marché local et échange culturel.",
-      "Jour 2 — 12:30 : Déjeuner à Anougal chez l’habitant. Reprise en début d’après-midi et retour progressif vers la base d’Agafay. Fin du raid et transfert Marrakech en fin d’après-midi."
+      {
+        "day": "Jour 1",
+        "title": "Marrakech → Agafay → Plateau du Kik → Vallée de N’fis",
+        "distance": "140 km",
+        "details": [
+          "08:00 — Prise en charge et transfert vers base Agafay. Briefing et prise en main des buggys.",
+          "10:00 — Traversée du désert d’Agafay, lacs asséchés et points panoramiques jusqu’au lac Lalla Takerkoust pour un déjeuner au lodge.",
+          "14:00 — Direction Plateau du Kik puis descente vers la Vallée de N’fis ; arrivée à l’Auberge Imsker, installation, dîner et soirée conviviale."
+        ]
+      },
+      {
+        "day": "Jour 2",
+        "title": "Vallée de N’fis → Amizmiz → Retour Agafay → Marrakech",
+        "distance": "120 km",
+        "details": [
+          "08:00 — Petit-déjeuner et départ en direction d’Amizmiz, traversée de villages berbères et marchés locaux.",
+          "12:30 — Déjeuner à Anougal chez l’habitant.",
+          "14:00 — Reprise et retour progressif vers la base d’Agafay. Fin du raid et transfert vers Marrakech."
+        ]
+      }
     ],
     "highlights": [
       "Confort buggy + immersion villageoise",
@@ -304,28 +416,65 @@
       "Transferts",
       "Repas prévus au programme"
     ],
-    "notIncluded": ["Assurance", "Boissons hors repas", "Pourboires"],
-    "practicalInfo": ["Niveau : 1", "Minimum 2 buggys", "Adapté aux familles et passagers débutants"],
+    "notIncluded": [
+      "Assurance",
+      "Boissons hors repas",
+      "Pourboires"
+    ],
+    "practicalInfo": [
+      "Niveau : 1",
+      "Minimum 2 buggys",
+      "Adapté aux familles et passagers débutants"
+    ],
     "description": "Circuit sur deux jours combinant confort du buggy et immersion dans les villages berbères, fidèle au parcours documenté."
   },
-
   {
-    "id": "buggy-3j",
+    "id": "buggy-3-jours",
     "slug": "raid-buggy-3-jours-2-nuits",
     "title": "Raid Buggy 3 Jours / 2 Nuits",
-    "shortDescription": "Circuit complet en buggy : Haut Atlas, Adassil et retour par Agafay — itinéraire officiel.",
+    "duration": "3 jours",
+    "nights": "2 nuits",
+    "type": "Buggy",
+    "difficulty": "Niveau 1",
+    "startLocation": "Marrakech",
+    "endLocation": "Marrakech",
     "price": "Sur demande",
-    "duration": "3 jours / 2 nuits",
-    "rating": "5.0",
-    "reviewCount": "167",
+    "shortDescription": "Circuit complet en buggy : Haut Atlas, Adassil et retour par Agafay — itinéraire officiel.",
     "srcImage": "/Buggy/3days/1.jpg",
-    "gallery": ["/Buggy/3days/1.jpg","/Buggy/3days/2.jpg","/Buggy/3days/3.jpg"],
-    "maxGroupSize": "8 personnes",
+    "gallery": [
+      "/Buggy/3days/1.jpg",
+      "/Buggy/1day/2.jpg",
+      "/Buggy/1day/3.jpg"
+    ],
     "program": [
-      "Jour 1 — 08:00 : Transfert depuis Marrakech vers la base à Agafay. Briefing sécurité, remise d’équipements et démonstration de maniement du buggy.",
-      "Jour 1 — 10:00 : Départ : traversée d’Agafay puis route vers Lalla Takerkoust. Déjeuner au lodge, découverte du Plateau du Kik et descente vers la Vallée de N’fis. Nuit à Auberge Imsker.",
-      "Jour 2 — 08:00 : Petit-déjeuner, départ vers Amizmiz ; traversée de villages berbères, marchés et pauses photos. Déjeuner à Anougal, puis montée vers Azgour via Anerni et Tnirte, ascension vers 2000 m et panoramas exceptionnels. Nuit à La Bergerie / Perle d’Adassil.",
-      "Jour 3 — 08:00 : Après le petit-déjeuner, cap sur Adassil par pistes caillouteuses et cols spectaculaires. Déjeuner chez l’habitant dans un cadre berbère puis reprise vers le barrage de Taskourte et retour sur Agafay. Fin du raid, remise des buggys et transfert Marrakech."
+      {
+        "day": "Jour 1",
+        "title": "Agafay → Lalla Takerkoust → Plateau du Kik → Vallée de N’fis",
+        "distance": "140 km",
+        "details": [
+          "08:00 — Transfert depuis Marrakech vers la base à Agafay. Briefing sécurité, remise d’équipements et démonstration de maniement du buggy.",
+          "10:00 — Départ : traversée d’Agafay puis route vers Lalla Takerkoust. Déjeuner au lodge, découverte du Plateau du Kik et descente vers la Vallée de N’fis. Nuit à Auberge Imsker."
+        ]
+      },
+      {
+        "day": "Jour 2",
+        "title": "N’fis → Amizmiz → Anougal → Azgour → Toulkine",
+        "distance": "140 km",
+        "details": [
+          "08:00 — Petit-déjeuner, départ vers Amizmiz ; traversée de villages berbères, marchés et pauses photos.",
+          "12:30 — Déjeuner à Anougal, puis montée vers Azgour via Anerni et Tnirte, ascension vers 2000 m. Nuit à La Bergerie / Perle d’Adassil."
+        ]
+      },
+      {
+        "day": "Jour 3",
+        "title": "Toulkine → Adassil → Barrage Taskourte → Agafay",
+        "distance": "160 km",
+        "details": [
+          "08:00 — Départ vers Adassil via pistes caillouteuses et cols spectaculaires.",
+          "12:30 — Déjeuner chez l’habitant après la descente des montagnes.",
+          "14:30 — Reprise vers le barrage de Taskourte, traversée d’hameaux isolés puis retour vers le désert d’Agafay. Fin du raid et transfert Marrakech."
+        ]
+      }
     ],
     "highlights": [
       "Itinéraire complet et emblématique",
@@ -339,26 +488,53 @@
       "Transferts",
       "Repas du raid"
     ],
-    "notIncluded": ["Assurance", "Dépenses perso"],
-    "practicalInfo": ["Niveau : 1 (buggy facilite passages techniques)","Minimum 2 buggys"],
+    "notIncluded": [
+      "Assurance",
+      "Dépenses perso"
+    ],
+    "practicalInfo": [
+      "Niveau : 1 (buggy facilite passages techniques)",
+      "Minimum 2 buggys"
+    ],
     "description": "Version buggy du circuit 3 jours : confort pour le passager tout en conservant les sensations et l’authenticité du parcours."
   },
-
   {
-    "id": "buggy-4j",
+    "id": "buggy-4-jours",
     "slug": "raid-buggy-4-jours-3-nuits",
     "title": "Raid Buggy 4 Jours / 3 Nuits",
-    "shortDescription": "Extension 4 jours : Atlas + nuit à Ounagha (proche Essaouira) — mix montagne & côte.",
+    "duration": "4 jours",
+    "nights": "3 nuits",
+    "type": "Buggy",
+    "difficulty": "Niveau 1–2",
+    "startLocation": "Marrakech",
+    "endLocation": "Marrakech",
     "price": "Sur demande",
-    "duration": "4 jours / 3 nuits",
-    "rating": "4.9",
-    "reviewCount": "119",
+    "shortDescription": "Extension 4 jours : Atlas + nuit à Ounagha (proche Essaouira) — mix montagne & côte.",
     "srcImage": "/Buggy/4days/1.jpg",
-    "gallery": ["/Buggy/4days/1.jpg","/Buggy/4days/2.jpg","/Buggy/4days/3.jpg"],
-    "maxGroupSize": "8 personnes",
+    "gallery": [
+      "/Buggy/4days/1.jpg",
+   "/Buggy/1day/2.jpg",
+      "/Buggy/1day/3.jpg"
+    ],
     "program": [
-      "Jour 1–3 — Conservent l’itinéraire detaillé du raid 3 jours (Agafay → N’fis → Azgour → Toulkine → Adassil) avec nuits en auberges locales.",
-      "Jour 4 — Départ matinal de Tamanzalou ou Toulkine selon la progression ; matinées sur pistes vers Amizmiz puis transit en direction d’Ounagha / zone littorale. Après-midi détente, arrivée au lodge côtier et soirée au bord de la mer (dîner libre ou fruits de mer selon approvisionnement local)."
+      {
+        "day": "Jour 1–3",
+        "title": "Itinéraire complet du 3 jours (Agafay → N’fis → Azgour → Toulkine → Adassil)",
+        "distance": "Variable",
+        "details": [
+          "Jours 1–3 suivent le programme détaillé du circuit 3 jours : désert, lacs, villages, ascensions et nuits en auberges locales."
+        ]
+      },
+      {
+        "day": "Jour 4",
+        "title": "Tamanzalou → Amizmiz → Ounagha → Essaouira (journée littorale)",
+        "distance": "Variable",
+        "details": [
+          "Départ matinal vers Amizmiz, pistes vallonnées puis transit vers la région d’Ounagha en fin de journée.",
+          "Arrivée au lodge côtier, soirée libre et dîner selon approvisionnement local.",
+          "Jour 4 : excursion journée plage (balade en buggy/quad le long des dunes et côtes) puis fin du raid et retour vers Marrakech."
+        ]
+      }
     ],
     "highlights": [
       "Deux nuits en Atlas + nuit littorale à Ounagha",
@@ -371,46 +547,15 @@
       "Guides et transferts",
       "Repas selon programme"
     ],
-    "notIncluded": ["Assurances", "Boissons extras"],
-    "practicalInfo": ["Niveau : 1–2", "Prévoir tenue légère pour la côte", "Minimum 2 buggys"],
-    "description": "Raid idéal pour ceux qui veulent prolonger l’expérience Atlas par une halte littorale, tout en conservant confort et sécurité."
-  },
-
-  {
-    "id": "buggy-5j",
-    "slug": "raid-buggy-5-jours-4-nuits",
-    "title": "Raid Buggy 5 Jours / 4 Nuits",
-    "shortDescription": "Grand circuit buggy : Atlas complet, zones reculées, Ounagha et nuit plage — immersion maximale.",
-    "price": "Sur demande",
-    "duration": "5 jours / 4 nuits",
-    "rating": "5.0",
-    "reviewCount": "134",
-    "srcImage": "/Buggy/5days/1.jpg",
-    "gallery": ["/Buggy/5days/1.jpg","/Buggy/5days/2.jpg","/Buggy/5days/3.jpg"],
-    "maxGroupSize": "8 personnes",
-    "program": [
-      "Jours 1–3 — Itinéraire complet du 3 jours (Agafay → Lalla Takerkoust → Plateau du Kik → Vallée de N’fis → Azgour → Toulkine → Adassil → Taskourte). Deux nuits en auberges typiques et repas chez l’habitant selon étapes.",
-      "Jour 4 — Exploration renforcée des zones d’Azgour/Anougal, crêtes et hameaux isolés ; déplacement en fin de journée vers Ounagha pour la nuit au lodge côtier.",
-      "Jour 5 — Matinée détente ou balade littorale autour d’Ounagha ; déjeuner en bord de mer ou pique-nique, puis retour progressif par pistes vers Agafay et transfert final vers Marrakech."
+    "notIncluded": [
+      "Assurances",
+      "Boissons extras"
     ],
-    "highlights": [
-      "Itinéraire le plus complet : montagne + littoral",
-      "Nuit en lodge côtier + hébergements traditionnels",
-      "Repas variés : montagnard et fruits de mer (selon saison)"
-    ],
-    "included": [
-      "Buggy + carburant",
-      "4 nuits (2 Atlas + 1 Ounagha + 1 plage si prévu)",
-      "Guides professionnels",
-      "Pension complète pendant le raid",
-      "Transferts et assistance mécanique"
-    ],
-    "notIncluded": ["Assurances", "Vols", "Dépenses personnelles"],
     "practicalInfo": [
-      "Niveau : 1–2 (longues journées possibles)",
-      "Convient aux passagers recherchant confort et découvertes",
-      "Réservation d’hébergements côtiers sujette à disponibilité"
+      "Niveau : 1–2",
+      "Prévoir tenue légère pour la côte",
+      "Minimum 2 buggys"
     ],
-    "description": "Le grand format buggy, pensé pour les voyageurs qui veulent tout voir : montagnes, vallées sauvages et côte atlantique pour finir le raid en douceur."
+    "description": "Raid idéal pour ceux qui veulent prolonger l’expérience Atlas par une halte littorale, tout en conservant confort et sécurité."
   }
 ]

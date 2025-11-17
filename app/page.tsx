@@ -126,8 +126,8 @@ export default function HomePage() {
 		heroImage: a.title,
 		featured: (a as any).featured ?? idx < 3,
 	}))
-	const majorActivities = activitiesData.slice(0, 5) // First 3 activities
-	const otherActivities = activitiesData.slice(-5) // Last 3 activities
+	const majorActivities = activitiesData.slice(0, 4) // First 4 activities
+	const otherActivities = activitiesData.slice(-4) // Last 4 activities
 
 	return (
 		<div className="min-h-screen">
