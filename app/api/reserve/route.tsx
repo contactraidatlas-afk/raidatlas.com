@@ -13,19 +13,26 @@ const transporter = nodemailer.createTransport({
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json()
-    const { name, email, phone, activity, date, numberOfPeople, message, city } = body
+    const { firstName, lastName, email, phone, activityTitle, activitySlug, activityDuration, activityPrice, date, people, message, city } = body
+
+    // Combine first and last name
+    const name = `${firstName || ''} ${lastName || ''}`.trim()
+    const numberOfPeople = people
 
     // Normalize activity to an object shape
-    const activityInfo =
-      typeof activity === "string"
-        ? { id: activity, slug: activity, title: activity, duration: "", price: "" }
-        : (activity || { id: "", slug: "", title: "", duration: "", price: "" })
+    const activityInfo = {
+      id: activitySlug || activityTitle || '',
+      slug: activitySlug || '',
+      title: activityTitle || '',
+      duration: activityDuration || '',
+      price: activityPrice || ''
+    }
 
     const siteUrl = request.nextUrl?.origin || ""
     const activityLink = activityInfo.slug ? `${siteUrl}/activities/${activityInfo.slug}` : siteUrl
 
     // Validate required fields
-    if (!name || !email || !phone || !activity || !date) {
+    if (!name || !email || !phone || !activityTitle || !date) {
       return NextResponse.json({ error: "Missing required fields" }, { status: 400 })
     }
 
