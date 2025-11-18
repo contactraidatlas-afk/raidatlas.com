@@ -310,7 +310,7 @@ export default function ActivityPage({ params }: { params: { slug: string } }) {
             )}
 
             {/* Not Included */}
-            {activity.notIncluded.length > 0 && (
+            {/* {activity.notIncluded.length > 0 && (
               <motion.section initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.2 }} transition={{ duration: 0.5 }}>
                 <h3 className="text-2xl font-semibold mb-4">Ce qui n'est pas Inclus</h3>
                 <div className="grid md:grid-cols-2 gap-4">
@@ -322,10 +322,10 @@ export default function ActivityPage({ params }: { params: { slug: string } }) {
                   ))}
                 </div>
               </motion.section>
-            )}
+            )} */}
 
             {/* Practical Info */}
-            {activity.practicalInfo.length > 0 && (
+            {/* {activity.practicalInfo.length > 0 && (
               <motion.section initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.2 }} transition={{ duration: 0.5 }}>
                 <h3 className="text-2xl font-semibold mb-4">Infos Pratiques</h3>
                 <div className="space-y-3">
@@ -337,7 +337,7 @@ export default function ActivityPage({ params }: { params: { slug: string } }) {
                   ))}
                 </div>
               </motion.section>
-            )}
+            )} */}
 
             {/* Map Section */}
             <motion.section
