@@ -131,7 +131,7 @@ export default function ActivitiesPage() {
 				</div>
 			</motion.section>
 			{/* Filter Section */}
-			<section className="py-8 bg-muted/30">
+			{/* <section className="py-8 bg-muted/30">
 				<div className="container mx-auto px-4">
 					<motion.div 
 						className="flex flex-col sm:flex-row items-center justify-between gap-6"
@@ -169,7 +169,7 @@ export default function ActivitiesPage() {
 						</div>
 					</motion.div>
 				</div>
-			</section>
+			</section> */}
 
 			{/* Enhanced Activities Grid */}
 			<section className="py-20 bg-gradient-to-br from-background to-muted/10">
