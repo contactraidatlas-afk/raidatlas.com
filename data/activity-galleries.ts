@@ -20,11 +20,6 @@ export const activityGalleries: Record<string, string[]> = {
     "/Quad/4days/2.jpg",
     "/Quad/4days/3.jpg",
   ],
-  "quad-5j": [
-    "/Quad/5days/1.jpg",
-    "/Quad/5days/2.jpg",
-    "/Quad/5days/3.jpg",
-  ],
   // Buggy Activities
   "buggy-1j": [
     "/Buggy/1day/1.jpg",
@@ -45,10 +40,5 @@ export const activityGalleries: Record<string, string[]> = {
     "/Buggy/4days/1.jpg",
     "/Buggy/4days/2.jpg",
     "/Buggy/4days/3.jpg",
-  ],
-  "buggy-5j": [
-    "/Buggy/5days/1.jpg",
-    "/Buggy/5days/2.jpg",
-    "/Buggy/5days/3.jpg",
   ],
 };

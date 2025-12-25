@@ -106,23 +106,23 @@ export default function Footer() {
             <h4 className="font-semibold text-foreground text-lg">Aventures Populaires</h4>
             <ul className="space-y-3 text-sm">
               <li>
-                <Link href="/activities/2h-quad" className="text-muted-foreground hover:text-primary transition-all duration-300 hover:translate-x-1 inline-block">
-                  Raids Quad en Montagne
+                <Link href="/activities/quad-1-jour-marrakech-agafay" className="text-muted-foreground hover:text-primary transition-all duration-300 hover:translate-x-1 inline-block">
+                  Raid Quad 1 Jour
                 </Link>
               </li>
               <li>
-                <Link href="/activities/2h-buggy" className="text-muted-foreground hover:text-primary transition-all duration-300 hover:translate-x-1 inline-block">
-                  Tours Buggy Désertiques
+                <Link href="/activities/raid-quad-2-jours-marrakech-atlas-agafay" className="text-muted-foreground hover:text-primary transition-all duration-300 hover:translate-x-1 inline-block">
+                  Raid Quad 2 Jours
                 </Link>
               </li>
               <li>
-                <Link href="/activities/quad-camel" className="text-muted-foreground hover:text-primary transition-all duration-300 hover:translate-x-1 inline-block">
-                  Expéditions Atlas
+                <Link href="/activities/raid-buggy-1-jour" className="text-muted-foreground hover:text-primary transition-all duration-300 hover:translate-x-1 inline-block">
+                  Raid Buggy 1 Jour
                 </Link>
               </li>
               <li>
-                <Link href="/activities/1h-camel" className="text-muted-foreground hover:text-primary transition-all duration-300 hover:translate-x-1 inline-block">
-                  Forfaits Aventure
+                <Link href="/activities/raid-quad-3-jours-2-nuits" className="text-muted-foreground hover:text-primary transition-all duration-300 hover:translate-x-1 inline-block">
+                  Raid Quad 3 Jours
                 </Link>
               </li>
             </ul>

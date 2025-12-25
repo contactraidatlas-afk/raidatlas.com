@@ -47,10 +47,10 @@ const heroImages = [
 const fallbackActivityImages = [
 	"/Slides/1.png",
 	"/Buggy/3days/1.jpg",
-	"/Buggy/5days/1.jpg",
+	"/Buggy/4days/1.jpg",
 	"/Quad/2days/3.jpg",
 	"/Quad/4days/3.jpg",
-	"/Quad/5days/3.jpg",
+	"/Quad/4days/3.jpg",
 ]
 
 export default function HomePage() {
@@ -97,7 +97,7 @@ export default function HomePage() {
 		},
 		{
 			title: "Raid Buggy 5 Jours - Grand Adventure",
-			srcImage: "/Buggy/5days/1.jpg",
+			srcImage: "/Buggy/4days/1.jpg",
 		},
 	]
 
