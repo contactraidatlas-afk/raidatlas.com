@@ -1,4 +1,4 @@
-# Email Integration Setup Guide 
+# Email Integration Setup Guide  
 
 ## Google App Password Setup
 
