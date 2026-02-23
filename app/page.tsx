@@ -28,20 +28,7 @@ type Activity = {
 	featured?: boolean
 }
 
-const heroImages = [
-	{
-		src: "/Slides/1.png",
-		alt: "Raid Atlas Quad Biking Adventure",
-	},
-	{
-		src: "/Slides/2.png",
-		alt: "Sunset Desert Adventure",
-	},
-	{
-		src: "/Slides/3.png",
-		alt: "Group Desert Adventure",
-	},
-]
+const HERO_VIDEO_ID = "kr0WuXVkSto"
 
 
 const fallbackActivityImages = [
@@ -54,16 +41,7 @@ const fallbackActivityImages = [
 ]
 
 export default function HomePage() {
-	const [currentImageIndex, setCurrentImageIndex] = useState(0)
 	const [lightboxIndex, setLightboxIndex] = useState<number | null>(null)
-
-	useEffect(() => {
-		const interval = setInterval(() => {
-			setCurrentImageIndex((prevIndex) => (prevIndex + 1) % heroImages.length)
-		}, 5000) // Change image every 5 seconds
-
-		return () => clearInterval(interval)
-	}, [])
 
 	// Gallery images reused for thumbnails and lightbox
 	const homeGalleryImages = [
@@ -140,48 +118,19 @@ export default function HomePage() {
 				animate={{ opacity: 1, y: 0 }}
 				transition={{ duration: 1.2 }}
 			>
-				{/* Enhanced Overlay */}
-				<div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/60 z-10" />
-				
-				{/* Animated Background Pattern */}
-				<div className="absolute inset-0 opacity-10 z-5">
-					<div className="absolute top-20 left-20 w-32 h-32 border border-white/20 rounded-full animate-pulse"></div>
-					<div className="absolute bottom-32 right-32 w-24 h-24 border border-white/20 rounded-full animate-pulse delay-1000"></div>
-					<div className="absolute top-1/2 left-10 w-16 h-16 border border-white/20 rounded-full animate-pulse delay-500"></div>
+				{/* Video Background */}
+				<div className="absolute inset-0 w-full h-full overflow-hidden">
+					<iframe
+						className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[177.78vh] min-w-full h-[56.25vw] min-h-full pointer-events-none"
+						src={`https://www.youtube.com/embed/${HERO_VIDEO_ID}?autoplay=1&mute=1&loop=1&playlist=${HERO_VIDEO_ID}&controls=0&showinfo=0&rel=0&modestbranding=1&playsinline=1&enablejsapi=1`}
+						title="Raid Atlas Adventure Video"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowFullScreen
+					/>
 				</div>
 
-				{/* Hero Images */}
-				<div className="absolute inset-0">
-					{heroImages.map((image, index) => (
-						<Image
-							key={index}
-							src={image.src || "/placeholder.svg"}
-							alt={image.alt}
-							fill
-							sizes="100vw"
-							quality={95}
-							className={`absolute inset-0 w-full h-full object-cover transition-all duration-1500 ease-in-out ${index === currentImageIndex
-								? "opacity-100 scale-100"
-								: "opacity-0 scale-110"
-								}`}
-							priority={index === 0}
-						/>
-					))}
-				</div>
-
-				{/* Enhanced Image Navigation */}
-				<div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 z-20 flex space-x-3">
-					{heroImages.map((_, index) => (
-						<button
-							key={index}
-							onClick={() => setCurrentImageIndex(index)}
-							className={`relative transition-all duration-500 ${index === currentImageIndex
-								? "w-12 h-3 bg-white rounded-full scale-110"
-								: "w-3 h-3 bg-white/60 hover:bg-white/80 rounded-full"
-								}`}
-						/>
-					))}
-				</div>
+				{/* Overlay for readability */}
+				<div className="absolute inset-0 bg-black/40 z-10" />
 
 				{/* Hero Content */}
 				<motion.div
