@@ -47,35 +47,35 @@ export default function HomePage() {
 	const homeGalleryImages = [
 		{
 			title: "Raid Quad 1 Jour - Aventure Désertique",
-			srcImage: "/Quad/1day/1.jpg",
+			srcImage: "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552536/1_pawkve.jpg",
 		},
 		{
 			title: "Raid Quad 2 Jours - Plateau du Kik",
-			srcImage: "/Quad/2days/2.jpg",
+			srcImage: "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552552/2_lcnnvt.jpg",
 		},
 		{
 			title: "Raid Quad 3 Jours - Vallée de N'fis",
-			srcImage: "/Quad/3days/2.jpg",
+			srcImage: "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552571/2_crcylr.jpg",
 		},
 		{
 			title: "Raid Buggy 1 Jour - Agafay Désert",
-			srcImage: "/Buggy/1day/1.jpg",
+			srcImage: "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552607/1_v8o6jo.jpg",
 		},
 		{
 			title: "Raid Buggy 2 Jours - Montagnes Atlas",
-			srcImage: "/Buggy/2days/1.jpg",
+			srcImage: "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552644/1_qrs1gt.jpg",
 		},
 		{
 			title: "Raid Buggy 3 Jours - Expérience Complète",
-			srcImage: "/Buggy/3days/1.jpg",
+			srcImage: "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552659/1_iw9pxv.jpg",
 		},
 		{
 			title: "Raid Quad 4 Jours - Immersion Totale",
-			srcImage: "/Quad/4days/2.jpg",
+			srcImage: "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552588/2_ak23iq.jpg",
 		},
 		{
 			title: "Raid Buggy 5 Jours - Grand Adventure",
-			srcImage: "/Buggy/4days/1.jpg",
+			srcImage: "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552698/1_bl7vwl.jpg",
 		},
 	]
 

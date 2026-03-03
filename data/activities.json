@@ -11,12 +11,12 @@
     "endLocation": "Marrakech",
     "price": "Sur demande",
     "shortDescription": "Une journée complète en quad depuis Marrakech : désert d’Agafay, villages berbères, lac Lalla Takerkoust et plateau du Kik.",
-    "srcImage": "/Quad/1day/1.jpg",
+    "srcImage": "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552536/1_pawkve.jpg",
     "gallery": [
-      "/Quad/1day/1.jpg",
-      "/Quad/1day/2.jpg",
-      "/Quad/1day/3.jpg",
-      "/Quad/1day/4.jpg"
+      "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552536/1_pawkve.jpg",
+      "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552536/2_roax6z.jpg",
+      "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552537/3_b3xehf.jpg",
+      "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552537/4_zgwolu.jpg"
     ],
     "program": [
       {
@@ -80,12 +80,12 @@
     "endLocation": "Marrakech",
     "price": "Sur demande",
     "shortDescription": "Deux jours d’aventure en quad entre désert, villages berbères et montagnes de l’Atlas avec une nuit en auberge typique.",
-    "srcImage": "/Quad/2days/4.jpg",
+    "srcImage": "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552555/4_h2cgib.jpg",
     "gallery": [
-      "/Quad/2days/1.jpg",
-      "/Quad/2days/2.jpg",
-      "/Quad/2days/3.jpg",
-      "/Quad/2days/4.jpg"
+      "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552551/1_fg4ycl.jpg",
+      "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552552/2_lcnnvt.jpg",
+      "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552553/3_gztn9t.jpg",
+      "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552555/4_h2cgib.jpg"
     ],
     "program": [
       {
@@ -161,11 +161,13 @@
     "endLocation": "Marrakech",
     "price": "Sur demande",
     "shortDescription": "Le grand classique : Haut Atlas → Adassil → Barrage Taskourte → Désert d’Agafay — immersion complète.",
-    "srcImage": "/Quad/3days/1.jpg",
+    "srcImage": "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552570/1_vpuqqd.jpg",
     "gallery": [
-      "/Quad/3days/1.jpg",
-      "/Quad/3days/2.jpg",
-      "/Quad/3days/3.jpg"
+      "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552570/1_vpuqqd.jpg",
+      "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552571/2_crcylr.jpg",
+      "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552572/3_b4rteu.jpg",
+      "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552573/4_rpbqah.jpg",
+      "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552575/5_fqykzk.jpg"
     ],
     "program": [
       {
@@ -240,11 +242,12 @@
     "endLocation": "Marrakech",
     "price": "Sur demande",
     "shortDescription": "Prolongation du 3 jours avec exploration des hauts plateaux et une nuit à Ounagha (zone côtière proche d’Essaouira).",
-    "srcImage": "/Quad/4days/1.jpg",
+    "srcImage": "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552587/1_m7udsn.jpg",
     "gallery": [
-      "/Quad/4days/1.jpg",
-      "/Quad/4days/2.jpg",
-      "/Quad/4days/3.jpg"
+      "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552587/1_m7udsn.jpg",
+      "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552588/2_ak23iq.jpg",
+      "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552590/3_zykehi.jpg",
+      "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552591/4_xjrlkm.jpg"
     ],
     "program": [
       {

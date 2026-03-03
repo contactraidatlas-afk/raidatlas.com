@@ -178,7 +178,7 @@ export default function AboutPage() {
             >
               <div className="relative overflow-hidden rounded-2xl shadow-2xl">
                 <Image
-                  src="/Slides/DSC_4782.jpg"
+                  src="https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552728/2_fojbmu.png"
                   alt="Raid Atlas - La première entreprise d'aventure du Maroc"
                   width={600}
                   height={500}
