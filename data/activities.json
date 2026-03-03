@@ -316,11 +316,11 @@
     "endLocation": "Marrakech",
     "price": "Sur demande",
     "shortDescription": "Journée buggy : confort et exploration entre Agafay et Plateau du Kik — déjeuner au lac.",
-    "srcImage": "/Buggy/1day/1.jpg",
+    "srcImage": "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552607/1_v8o6jo.jpg",
     "gallery": [
-      "/Buggy/1day/1.jpg",
-      "/Buggy/1day/2.jpg",
-      "/Buggy/1day/3.jpg"
+      "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552607/1_v8o6jo.jpg",
+      "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552609/2_kujvhe.jpg",
+      "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552610/3_vr3hdh.jpg"
     ],
     "program": [
       {
@@ -373,11 +373,11 @@
     "endLocation": "Marrakech",
     "price": "Sur demande",
     "shortDescription": "Deux jours en buggy : Agafay → Plateau du Kik → Vallée de N’fis — nuit en maison d’hôtes.",
-    "srcImage": "/Buggy/2days/1.jpg",
+    "srcImage": "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552644/1_qrs1gt.jpg",
     "gallery": [
-      "/Buggy/2days/1.jpg",
-   "/Buggy/1day/2.jpg",
-      "/Buggy/1day/3.jpg"
+      "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552644/1_qrs1gt.jpg",
+   "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552609/2_kujvhe.jpg",
+      "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552610/3_vr3hdh.jpg"
     ],
     "program": [
       {
@@ -437,11 +437,11 @@
     "endLocation": "Marrakech",
     "price": "Sur demande",
     "shortDescription": "Circuit complet en buggy : Haut Atlas, Adassil et retour par Agafay — itinéraire officiel.",
-    "srcImage": "/Buggy/3days/1.jpg",
+    "srcImage": "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552659/1_iw9pxv.jpg",
     "gallery": [
-      "/Buggy/3days/1.jpg",
-      "/Buggy/1day/2.jpg",
-      "/Buggy/1day/3.jpg"
+      "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552659/1_iw9pxv.jpg",
+        "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552609/2_kujvhe.jpg",
+      "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552610/3_vr3hdh.jpg"
     ],
     "program": [
       {
@@ -507,11 +507,11 @@
     "endLocation": "Marrakech",
     "price": "Sur demande",
     "shortDescription": "Extension 4 jours : Atlas + nuit à Ounagha (proche Essaouira) — mix montagne & côte.",
-    "srcImage": "/Buggy/4days/1.jpg",
+    "srcImage": "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552698/1_bl7vwl.jpg",
     "gallery": [
-      "/Buggy/4days/1.jpg",
-   "/Buggy/1day/2.jpg",
-      "/Buggy/1day/3.jpg"
+      "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552698/1_bl7vwl.jpg",
+   "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552700/2_j1akgy.jpg",
+      "https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772552610/3_vr3hdh.jpg"
     ],
     "program": [
       {
