@@ -7,7 +7,7 @@ export const blogPosts: BlogPost[] = [
     title: 'Guide Complet du Raid Quad au Maroc : De l\'Atlas au Désert d\'Agafay',
     excerpt: 'Découvrez tout ce qu\'il faut savoir sur les raids quad au Maroc : itinéraires, préparation, meilleurs moments et conseils pratiques pour une aventure inoubliable.',
     category: 'Guides & Conseils',
-    image: 'https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772561830/15_uobyxy.jpg',
+    image: 'https://res.cloudinary.com/dyhu6lnqr/image/upload/v1772561790/8_b249z4.jpg',
     date: '15 Fév 2026',
     readTime: '12 min',
     tags: ['Quad', 'Raid', 'Atlas', 'Agafay', 'Maroc'],
