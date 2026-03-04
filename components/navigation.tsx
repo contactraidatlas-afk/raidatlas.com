@@ -86,6 +86,7 @@ export function Navigation() {
                 { href: "/", label: "Accueil" },
                 { href: "/about", label: "À Propos" },
                 { href: "/activities", label: "Activités" },
+                { href: "/blog", label: "Blog" },
                 { href: "/contact", label: "Contact" }
               ].map((item) => {
                 const isActive = pathname === item.href
@@ -154,9 +155,10 @@ export function Navigation() {
               {/* Mobile Navigation Links */}
               {[
                 { href: "/", label: "Accueil", delay: "50ms" },
-                { href: "/about", label: "À Propos", delay: "150ms" },
-                { href: "/activities", label: "Activités", delay: "100ms" },
-                { href: "/contact", label: "Contact", delay: "200ms" }
+                { href: "/about", label: "À Propos", delay: "100ms" },
+                { href: "/activities", label: "Activités", delay: "150ms" },
+                { href: "/blog", label: "Blog", delay: "200ms" },
+                { href: "/contact", label: "Contact", delay: "250ms" }
               ].map((item) => {
                 const isActive = pathname === item.href
                 return (

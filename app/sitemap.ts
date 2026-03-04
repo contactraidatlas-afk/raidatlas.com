@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next"
 import allActivities from "@/data/activities.json"
+import { blogPosts } from "@/data/blog"
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.raidatlas.com"
@@ -23,6 +24,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
       lastModified: new Date(),
     },
+    {
+      url: `${baseUrl}/blog`,
+      changeFrequency: "weekly",
+      priority: 0.8,
+      lastModified: new Date(),
+    },
     { 
       url: `${baseUrl}/contact`, 
       changeFrequency: "monthly", 
@@ -43,5 +50,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }))
 
-  return [...staticRoutes, ...activityRoutes]
+  const blogRoutes: MetadataRoute.Sitemap = (blogPosts as any[]).map((post: any) => ({
+    url: `${baseUrl}/blog/${post.slug}`,
+    changeFrequency: "monthly",
+    priority: 0.7,
+    lastModified: new Date(),
+  }))
+
+  return [...staticRoutes, ...activityRoutes, ...blogRoutes]
 }

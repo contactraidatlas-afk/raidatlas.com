@@ -13,6 +13,8 @@ import Image from "next/image"
 import { motion } from "framer-motion"
 import allActivities from "@/data/activities.json"
 import { Dialog, DialogContent } from "@/components/ui/dialog"
+import { blogPosts } from "@/data/blog"
+import { Calendar, ArrowRight } from "lucide-react"
 
 type Activity = {
 	id: string
@@ -528,6 +530,131 @@ export default function HomePage() {
 								</motion.div>
 							))}
 						</div>
+					</div>
+				</section>
+			</motion.div>
+			{/* Latest Blog Articles Section */}
+			<motion.div
+				initial={{ opacity: 0, y: 40 }}
+				whileInView={{ opacity: 1, y: 0 }}
+				viewport={{ once: true, amount: 0.2 }}
+				transition={{ duration: 0.8 }}
+			>
+				<section className="py-20 bg-gradient-to-br from-card/30 to-background relative overflow-hidden">
+					{/* Background Pattern */}
+					<div className="absolute inset-0 opacity-5">
+						<div className="absolute top-20 right-20 w-32 h-32 border border-primary/20 rounded-full"></div>
+						<div className="absolute bottom-16 left-16 w-24 h-24 border border-secondary/20 rounded-full"></div>
+					</div>
+
+					<div className="container mx-auto px-4 relative z-10">
+						{/* Header */}
+						<motion.div 
+							className="text-center mb-16"
+							initial={{ opacity: 0, y: 20 }}
+							whileInView={{ opacity: 1, y: 0 }}
+							viewport={{ once: true }}
+							transition={{ delay: 0.2, duration: 0.8 }}
+						>
+							<div className="inline-flex items-center space-x-2 bg-[#b8860b]/10 text-[#b8860b] rounded-full px-6 py-2 mb-6">
+								<div className="w-2 h-2 bg-[#b8860b] rounded-full animate-pulse"></div>
+								<span className="text-sm font-medium uppercase tracking-wider">Derniers Articles</span>
+							</div>
+							<h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 bg-gradient-to-r from-foreground to-foreground/80 bg-clip-text text-transparent">
+								Conseils & Guides d'Aventure
+							</h2>
+							<p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+								Découvrez nos derniers articles pour préparer au mieux votre raid au Maroc. 
+								Conseils pratiques, guides complets et astuces d'experts.
+							</p>
+						</motion.div>
+
+						{/* Blog Cards Grid */}
+						<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+							{blogPosts.slice(0, 3).map((post, index) => (
+								<motion.div
+									key={post.id}
+									initial={{ opacity: 0, y: 30 }}
+									whileInView={{ opacity: 1, y: 0 }}
+									viewport={{ once: true }}
+									transition={{ delay: index * 0.1, duration: 0.8 }}
+								>
+									<Link href={`/blog/${post.slug}`}>
+										<Card className="group overflow-hidden hover:shadow-2xl hover:shadow-[#b8860b]/10 transition-all duration-500 h-full border-border/50 hover:border-[#b8860b]/20 bg-background/80 backdrop-blur-sm">
+											{/* Image */}
+											<div className="relative aspect-video overflow-hidden">
+												<Image
+													src={post.image}
+													alt={post.title}
+													fill
+													className="object-cover transition-all duration-500 group-hover:scale-110"
+													loading="lazy"
+												/>
+												<div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+												
+												{/* Category Badge */}
+												<div className="absolute top-4 left-4">
+													<Badge className="bg-[#b8860b] text-white border-none">
+														{post.category}
+													</Badge>
+												</div>
+											</div>
+
+											{/* Content */}
+											<CardContent className="p-6">
+												{/* Date & Read Time */}
+												<div className="flex items-center space-x-4 text-sm text-muted-foreground mb-3">
+													<div className="flex items-center space-x-1">
+														<Calendar className="h-4 w-4" />
+														<span>{post.date}</span>
+													</div>
+													<div className="flex items-center space-x-1">
+														<Clock className="h-4 w-4" />
+														<span>{post.readTime}</span>
+													</div>
+												</div>
+
+												{/* Title */}
+												<h3 className="text-xl font-bold mb-3 group-hover:text-[#b8860b] transition-colors duration-300 line-clamp-2">
+													{post.title}
+												</h3>
+
+												{/* Excerpt */}
+												<p className="text-muted-foreground text-sm leading-relaxed mb-4 line-clamp-3">
+													{post.excerpt}
+												</p>
+
+												{/* Read More Link */}
+												<div className="flex items-center text-[#b8860b] font-medium text-sm group-hover:translate-x-2 transition-transform duration-300">
+													<span>Lire l'article</span>
+													<ArrowRight className="ml-2 h-4 w-4" />
+												</div>
+											</CardContent>
+										</Card>
+									</Link>
+								</motion.div>
+							))}
+						</div>
+
+						{/* View All Blog CTA */}
+						<motion.div 
+							className="text-center mt-12"
+							initial={{ opacity: 0, y: 20 }}
+							whileInView={{ opacity: 1, y: 0 }}
+							viewport={{ once: true }}
+							transition={{ delay: 0.6, duration: 0.8 }}
+						>
+							<Button 
+								size="lg" 
+								className="px-8 py-6 text-lg bg-[#b8860b] hover:bg-[#9a7109] shadow-xl hover:shadow-[#b8860b]/25 transition-all duration-300 hover:scale-105"
+								asChild
+							>
+								<Link href="/blog">
+									Voir Tous les Articles
+									<ArrowRight className="ml-2 h-5 w-5" />
+								</Link>
+							</Button>
+						</motion.div>
 					</div>
 				</section>
 			</motion.div>
